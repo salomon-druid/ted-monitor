@@ -2,6 +2,7 @@ import { supabase, Notice } from '@/lib/supabase';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Sidebar from '@/components/Sidebar';
+import SummaryButton from '@/components/SummaryButton';
 
 export const dynamic = 'force-dynamic';
 
@@ -137,6 +138,9 @@ export default async function NoticeDetailPage({
                 </a>
               </div>
             )}
+
+            {/* KI Summary */}
+            <SummaryButton noticeId={notice.notice_id || String(notice.id)} />
           </div>
 
           {/* Footer */}

@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "branches": "Secteurs",
+    "dashboard": "Tableau de bord",
+    "signIn": "Connexion",
+    "startTrial": "Essai gratuit"
+  },
+  "hero": {
+    "badge": "Données TED en direct — Mises à jour quotidiennes",
+    "headline": "Trouvez les appels d'offres EU qui correspondent à ",
+    "headlineHighlight": "votre activité",
+    "headlineEnd": " — automatiquement",
+    "subtitle": "Arrêtez de perdre des heures à parcourir TED. TenderWatch surveille chaque avis de passation de marchés de l'UE, les compare à vos codes CPV et vous livre les opportunités les plus pertinentes directement dans votre boîte mail.",
+    "searchPlaceholder": "Essayez \"services informatiques\", \"construction\", \"équipement médical\"...",
+    "cta": "Essai gratuit",
+    "trialNote": "14 jours gratuits · Sans carte bancaire · Résiliez à tout moment"
+  },
+  "trustBar": {
+    "activeTenders": "Appels d'offres actifs",
+    "euCountries": "Pays UE",
+    "updated": "Mis à jour",
+    "daily": "quotidiennement",
+    "smbTrust": "PME nous font confiance"
+  },
+  "howItWorks": {
+    "title": "Remportez plus de marchés publics en ",
+    "titleHighlight": "3 étapes",
+    "subtitle": "De l'inscription à votre premier appel d'offres correspondant — moins de 5 minutes.",
+    "step1Title": "Créez votre profil",
+    "step1Desc": "Indiquez votre secteur, vos codes CPV et vos régions. Nous construisons votre ADN d'appels d'offres pour ne vous montrer que les opportunités pertinentes.",
+    "step2Title": "Recevez des correspondances",
+    "step2Desc": "Notre algorithme analyse chaque avis TED et les évalue par rapport à votre profil. Les appels d'offres pertinents arrivent dans votre boîte mail quotidiennement.",
+    "step3Title": "Remportez des marchés",
+    "step3Desc": "Utilisez nos résumés IA et notre score d'adéquation pour rédiger des propositions gagnantes. Le suivi des délais garde votre équipe sur les rails.",
+    "step": "Étape"
+  },
+  "features": {
+    "title": "Tout ce qu'il vous faut pour ",
+    "titleHighlight": "gagner des marchés",
+    "subtitle": "Conçu pour les équipes B2B fatiguées des recherches manuelles sur TED et des opportunités manquées.",
+    "cpvAlertsTitle": "Alertes CPV",
+    "cpvAlertsDesc": "Définissez vos codes CPV une fois. Chaque nouvel avis TED correspondant à votre profil déclenche une alerte instantanée.",
+    "bidFitTitle": "Score d'adéquation",
+    "bidFitDesc": "Chaque appel d'offres reçoit un score de correspondance de 0 à 100%. Concentrez-vous sur les opportunités que vous êtes le plus susceptible de remporter.",
+    "aiSummariesTitle": "Résumés IA",
+    "aiSummariesDesc": "Des documents de passation trop longs ? Notre IA extrait les exigences clés, le calendrier et les critères d'évaluation en quelques secondes.",
+    "deadlineTitle": "Suivi des délais",
+    "deadlineDesc": "Ne manquez plus jamais un délai de soumission. Rappels intelligents à 7 jours, 3 jours et 24 heures avant la clôture.",
+    "teamTitle": "Flux de travail d'équipe",
+    "teamDesc": "Attribuez les appels d'offres aux membres de l'équipe, suivez qui travaille sur quoi et collaborez sur les propositions en un seul endroit.",
+    "exportTitle": "Export & Rapports",
+    "exportDesc": "Exportez les données des appels d'offres en CSV, PDF ou Excel. Générez des rapports hebdomadaires pour la direction ou votre équipe d'appels d'offres."
+  },
+  "socialProof": {
+    "title": "Approuvé par plus de 50 PME à travers l'Europe",
+    "subtitle": "Des sociétés informatiques de Berlin aux entreprises de construction de Lyon — les entreprises utilisent TenderWatch pour remporter des marchés publics qu'elles auraient autrement manqués."
+  },
+  "pricing": {
+    "title": "Tarification simple et ",
+    "titleHighlight": "transparente",
+    "subtitle": "14 jours d'essai gratuit. Sans carte bancaire. Mettez à niveau, rétrogradez ou résiliez à tout moment.",
+    "mostPopular": "Le plus populaire",
+    "startTrial": "Essai gratuit",
+    "contactSales": "Contacter les ventes",
+    "starter": "Starter",
+    "starterDesc": "Pour les freelances et fondateurs seuls",
+    "starterFeatures": ["1 compte utilisateur", "1 secteur d'activité", "Alertes email quotidiennes", "Correspondance CPV basique", "Rappels d'échéance", "Export CSV"],
+    "professional": "Professionnel",
+    "professionalDesc": "Pour les équipes en croissance",
+    "professionalFeatures": ["3 comptes utilisateurs", "Tous les secteurs", "Alertes en temps réel", "Résumés IA", "Score d'adéquation (0–100%)", "Suivi des délais", "Collaboration d'équipe", "Export PDF & Excel", "Support prioritaire"],
+    "enterprise": "Entreprise",
+    "enterpriseDesc": "Pour les grandes organisations",
+    "enterpriseFeatures": ["Utilisateurs illimités", "Tous les secteurs", "Tout le plan Professionnel", "Accès API REST", "Intégration SSO / SAML", "Règles CPV personnalisées", "Responsable de compte dédié", "Intégrations personnalisées", "Garantie SLA"]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de commencer.",
+    "items": [
+      {
+        "q": "Qu'est-ce que TED et pourquoi devrais-je le surveiller ?",
+        "a": "TED (Tenders Electronic Daily) est le journal officiel des marchés publics de l'UE. Plus de 250 000 marchés publics d'une valeur de plusieurs milliards d'euros y sont publiés chaque année. Si vous vendez aux gouvernements ou aux grandes organisations en Europe, surveiller TED est essentiel pour trouver de nouveaux clients."
+      },
+      {
+        "q": "Comment fonctionne la correspondance CPV ?",
+        "a": "Les codes CPV (Vocabulaire commun pour les marchés publics) classifient le sujet d'un appel d'offres. Vous nous indiquez les codes qui correspondent à votre activité — par exemple, 72000000 pour les services informatiques. Notre système analyse chaque nouvel avis TED et filtre par vos codes, pour que vous ne voyiez que les opportunités pertinentes."
+      },
+      {
+        "q": "Que signifie « score d'adéquation » ?",
+        "a": "Notre algorithme analyse chaque appel d'offres par rapport à votre profil — en tenant compte de facteurs comme la valeur du contrat, le lieu, les qualifications requises et le niveau de concurrence — et attribue un score de 0 à 100% indiquant vos chances de remporter le marché. Cela vous aide à vous concentrer sur les meilleures opportunités."
+      },
+      {
+        "q": "Puis-je essayer TenderWatch avant de payer ?",
+        "a": "Bien sûr. Chaque formule comprend un essai gratuit de 14 jours. Aucune carte bancaire requise. Vous avez accès à toutes les fonctionnalités pendant l'essai, pour évaluer si TenderWatch correspond à votre activité."
+      },
+      {
+        "q": "En quoi est-ce différent de consulter TED directement ?",
+        "a": "TED publie des milliers d'avis quotidiennement dans toutes les langues de l'UE. Les filtrer manuellement est un travail à temps plein. TenderWatch automatise tout le processus — correspondance, scoring, résumé et alertes — pour que votre équipe puisse se concentrer sur la rédaction de propositions gagnantes."
+      },
+      {
+        "q": "Puis-je annuler ou changer de formule à tout moment ?",
+        "a": "Oui. Il n'y a pas d'engagement à long terme. Vous pouvez mettre à niveau, rétrogradez ou résilier votre abonnement à tout moment. Si vous résiliez, vous conservez l'accès jusqu'à la fin de votre période de facturation en cours."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ne manquez plus les appels d'offres UE",
+    "subtitle": "Rejoignez plus de 50 entreprises qui utilisent déjà TenderWatch pour trouver, suivre et remporter des marchés publics en Europe.",
+    "button": "Commencez votre essai gratuit",
+    "viewPricing": "Voir les tarifs →"
+  },
+  "footer": {
+    "tagline": "Plateforme d'intelligence des marchés publics UE. Trouvez, correspondez et remportez automatiquement les marchés publics.",
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "dashboard": "Tableau de bord",
+    "notices": "Avis",
+    "company": "Entreprise",
+    "about": "À propos",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique des cookies",
+    "gdpr": "RGPD",
+    "copyright": "Tous droits réservés.",
+    "dataSourced": "Données issues de"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Les opportunités de marchés publics UE en un coup d'œil",
+    "totalNotices": "Total des avis",
+    "newToday": "Nouveaux aujourd'hui",
+    "thisWeek": "Cette semaine",
+    "expiringSoon": "Expiration prochaine",
+    "quickFilters": "Filtres rapides :",
+    "filterAll": "Tous",
+    "filterIT": "Services IT",
+    "filterConstruction": "Construction",
+    "filterMedical": "Médical",
+    "filterConsulting": "Conseil",
+    "filterHighFit": "Correspondance élevée",
+    "topCountries": "Principaux pays",
+    "topCategories": "Principales catégories (CPV)",
+    "noData": "Pas encore de données",
+    "recentNotices": "Avis récents",
+    "viewAll": "Voir tout →",
+    "noNotices": "Aucun avis trouvé pour le moment. Le collecteur remplira les données prochainement.",
+    "untitled": "Avis sans titre",
+    "unknownBuyer": "Acheteur inconnu"
+  },
+  "notices": {
+    "title": "Avis",
+    "procurementNotices": "avis de marchés publics",
+    "search": "Recherche",
+    "searchPlaceholder": "Titre, acheteur, mot-clé...",
+    "country": "Pays",
+    "allCountries": "Tous les pays",
+    "type": "Type",
+    "allTypes": "Tous les types",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "noResults": "Aucun avis ne correspond à vos filtres",
+    "adjustSearch": "Essayez de modifier vos critères de recherche",
+    "untitled": "Avis sans titre",
+    "deadline": "Échéance",
+    "pageOf": "Page {page} sur {total}",
+    "previous": "← Précédent",
+    "next": "Suivant →",
+    "buyer": "Acheteur",
+    "cpvCode": "Code CPV",
+    "publicationDate": "Date de publication",
+    "estimatedValue": "Valeur estimée",
+    "noticeType": "Type d'avis",
+    "procedureType": "Type de procédure",
+    "description": "Description",
+    "viewOnTed": "Voir sur TED",
+    "backToNotices": "Retour aux avis",
+    "deadlinePassed": "Délai dépassé",
+    "daysLeft": "{days} jours restants",
+    "oneDayLeft": "1 jour restant"
+  },
+  "branches": {
+    "bau": "Bâtiment & Construction",
+    "it": "IT & Logiciel",
+    "facility": "Gestion des installations",
+    "beratung": "Conseil"
+  }
+}
