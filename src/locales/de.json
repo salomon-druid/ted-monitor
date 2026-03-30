@@ -1,193 +1,428 @@
 {
   "nav": {
     "features": "Features",
-    "pricing": "Pricing",
+    "pricing": "Preise",
     "branches": "Branchen",
     "dashboard": "Dashboard",
-    "signIn": "Sign In",
-    "startTrial": "Start Free Trial"
+    "signIn": "Anmelden",
+    "startTrial": "Kostenlos testen"
   },
   "hero": {
-    "badge": "Live TED Data — Updated Daily",
-    "headline": "Find EU Tenders That Match ",
-    "headlineHighlight": "Your Business",
-    "headlineEnd": " — Automatically",
-    "subtitle": "Stop wasting hours scrolling through TED. TenderWatch monitors every EU procurement notice, matches them to your CPV codes, and delivers high-fit opportunities straight to your inbox.",
-    "searchPlaceholder": "Try \"IT services\", \"construction\", \"medical equipment\"...",
-    "cta": "Start Free Trial",
-    "trialNote": "14 days free · No credit card required · Cancel anytime"
+    "badge": "Live TED-Daten — Täglich aktualisiert",
+    "headline": "Finden Sie EU-Ausschreibungen, die zu ",
+    "headlineHighlight": "Ihrem Unternehmen",
+    "headlineEnd": " passen — automatisch",
+    "subtitle": "Hören Sie auf, stundenlang TED zu durchsuchen. TenderWatch überwacht jede EU-Vergabe, gleicht sie mit Ihren CPV-Codes ab und liefert passende Opportunities direkt in Ihren Posteingang.",
+    "searchPlaceholder": "Versuchen Sie „IT-Dienstleistungen\", „Bau\", „Medizintechnik\"...",
+    "cta": "Kostenlos testen",
+    "trialNote": "14 Tage kostenlos · Keine Kreditkarte · Jederzeit kündbar"
   },
   "trustBar": {
-    "activeTenders": "Active Tenders",
-    "euCountries": "EU Countries",
-    "updated": "Updated",
-    "daily": "Daily",
-    "smbTrust": "SMBs Trust Us"
+    "activeTenders": "Aktive Ausschreibungen",
+    "euCountries": "EU-Länder",
+    "updated": "Aktualisiert",
+    "daily": "Täglich",
+    "smbTrust": "KMUs vertrauen uns"
   },
   "howItWorks": {
-    "title": "Win More Public Contracts in ",
-    "titleHighlight": "3 Steps",
-    "subtitle": "From setup to your first matched tender — it takes less than 5 minutes.",
-    "step1Title": "Set Your Profile",
-    "step1Desc": "Tell us your industry, CPV codes, and regions. We build your tender DNA so you only see relevant opportunities.",
-    "step2Title": "Get Matched",
-    "step2Desc": "Our algorithm scans every TED notice and scores them against your profile. High-fit tenders land in your inbox daily.",
-    "step3Title": "Win Contracts",
-    "step3Desc": "Use our AI summaries and bid-fit scoring to craft winning proposals. Deadline tracking keeps your team on schedule.",
-    "step": "Step"
+    "title": "Gewinnen Sie mehr öffentliche Aufträge in ",
+    "titleHighlight": "3 Schritten",
+    "subtitle": "Von der Anmeldung bis zur ersten passenden Ausschreibung — es dauert weniger als 5 Minuten.",
+    "step1Title": "Profil erstellen",
+    "step1Desc": "Sagen Sie uns Ihre Branche, CPV-Codes und Regionen. Wir bauen Ihr Ausschreibungs-DNA, damit Sie nur relevante Opportunities sehen.",
+    "step2Title": "Passende Angebote erhalten",
+    "step2Desc": "Unser Algorithmus scannt jede TED-Ausschreibung und bewertet sie anhand Ihres Profils. Passende Ausschreibungen landen täglich in Ihrem Posteingang.",
+    "step3Title": "Aufträge gewinnen",
+    "step3Desc": "Nutzen Sie unsere KI-Zusammenfassungen und Bid-Fit-Scores, um überzeugende Angebote zu verfassen. Deadline-Tracking hält Ihr Team im Zeitplan.",
+    "step": "Schritt"
   },
   "features": {
-    "title": "Everything You Need to ",
-    "titleHighlight": "Win Tenders",
-    "subtitle": "Built for B2B teams who are tired of manual TED searches and missed opportunities.",
-    "cpvAlertsTitle": "CPV-Matched Alerts",
-    "cpvAlertsDesc": "Set your CPV codes once. Every new TED notice that matches your business profile triggers an instant alert.",
-    "bidFitTitle": "Bid-Fit Scoring",
-    "bidFitDesc": "Every tender gets a 0–100% match score. Focus your time on the opportunities you are most likely to win.",
-    "aiSummariesTitle": "AI Summaries",
-    "aiSummariesDesc": "Long procurement docs? Our AI extracts the key requirements, timeline, and evaluation criteria in seconds.",
-    "deadlineTitle": "Deadline Tracking",
-    "deadlineDesc": "Never miss a submission deadline again. Smart reminders at 7 days, 3 days, and 24 hours before closing.",
-    "teamTitle": "Team Workflows",
-    "teamDesc": "Assign tenders to team members, track who is working on what, and collaborate on proposals in one place.",
+    "title": "Alles was Sie brauchen, um ",
+    "titleHighlight": "Ausschreibungen zu gewinnen",
+    "subtitle": "Entwickelt für B2B-Teams, die manuelle TED-Suchen und verpasste Opportunities satt haben.",
+    "cpvAlertsTitle": "CPV-basierte Alerts",
+    "cpvAlertsDesc": "Setzen Sie Ihre CPV-Codes einmal. Jede neue TED-Ausschreibung, die Ihrem Unternehmensprofil entspricht, löst einen sofortigen Alert aus.",
+    "bidFitTitle": "Bid-Fit-Score",
+    "bidFitDesc": "Jede Ausschreibung erhält einen 0–100% Match-Score. Konzentrieren Sie sich auf die Opportunities mit der höchsten Gewinnchance.",
+    "aiSummariesTitle": "KI-Zusammenfassungen",
+    "aiSummariesDesc": "Lange Vergabeunterlagen? Unsere KI extrahiert die wichtigsten Anforderungen, Zeitpläne und Bewertungskriterien in Sekunden.",
+    "deadlineTitle": "Deadline-Tracking",
+    "deadlineDesc": "Verpassen Sie keine Angebotsfrist mehr. Smarte Erinnerungen 7 Tage, 3 Tage und 24 Stunden vor Ablauf.",
+    "teamTitle": "Team-Workflows",
+    "teamDesc": "Weisen Sie Ausschreibungen Teammitgliedern zu, verfolgen Sie wer an was arbeitet und arbeiten Sie an Angeboten an einem Ort.",
     "exportTitle": "Export & Reports",
-    "exportDesc": "Export tender data as CSV, PDF, or Excel. Generate weekly reports for management or your bid team."
+    "exportDesc": "Exportieren Sie Ausschreibungsdaten als CSV, PDF oder Excel. Erstellen Sie Wochenberichte für die Geschäftsführung oder Ihr Bieter-Team."
   },
   "socialProof": {
-    "title": "Trusted by 50+ SMBs Across Europe",
-    "subtitle": "From IT consultancies in Berlin to construction firms in Lyon — businesses use TenderWatch to win public contracts they would have otherwise missed."
+    "title": "Vertraut von 50+ KMUs in ganz Europa",
+    "subtitle": "Von IT-Beratungen in Berlin bis Bauunternehmen in Lyon — Unternehmen nutzen TenderWatch, um öffentliche Aufträge zu gewinnen, die sie sonst verpasst hätten."
   },
   "pricing": {
-    "title": "Simple, Transparent ",
-    "titleHighlight": "Pricing",
-    "subtitle": "Start free for 14 days. No credit card required. Upgrade, downgrade, or cancel anytime.",
-    "mostPopular": "Most Popular",
-    "startTrial": "Start Free Trial",
-    "contactSales": "Contact Sales",
+    "title": "Einfache, transparente ",
+    "titleHighlight": "Preise",
+    "subtitle": "14 Tage kostenlos testen. Keine Kreditkarte erforderlich. Upgraden, Downgraden oder jederzeit kündigen.",
+    "mostPopular": "Am beliebtesten",
+    "startTrial": "Kostenlos testen",
+    "contactSales": "Vertrieb kontaktieren",
     "starter": "Starter",
-    "starterDesc": "For freelancers & solo founders",
-    "starterFeatures": ["1 user account", "1 industry focus", "Daily email alerts", "Basic CPV matching", "Deadline reminders", "CSV export"],
+    "starterDesc": "Für Freelancer & Solo-Gründer",
+    "starterFeatures": ["1 Benutzerkonto", "1 Branchenfokus", "Tägliche E-Mail-Alerts", "Basis CPV-Matching", "Deadline-Erinnerungen", "CSV-Export"],
     "professional": "Professional",
-    "professionalDesc": "For growing bid teams",
-    "professionalFeatures": ["3 user accounts", "All industries", "Real-time alerts", "AI-powered summaries", "Bid-fit scoring (0–100%)", "Deadline tracking", "Team collaboration", "PDF & Excel export", "Priority support"],
+    "professionalDesc": "Für wachsende Bieter-Teams",
+    "professionalFeatures": ["3 Benutzerkonten", "Alle Branchen", "Echtzeit-Alerts", "KI-Zusammenfassungen", "Bid-Fit-Score (0–100%)", "Deadline-Tracking", "Team-Zusammenarbeit", "PDF & Excel-Export", "Priority Support"],
     "enterprise": "Enterprise",
-    "enterpriseDesc": "For large organizations",
-    "enterpriseFeatures": ["Unlimited users", "All industries", "Everything in Professional", "REST API access", "SSO / SAML integration", "Custom CPV rules", "Dedicated account manager", "Custom integrations", "SLA guarantee"]
+    "enterpriseDesc": "Für große Organisationen",
+    "enterpriseFeatures": ["Unbegrenzte Nutzer", "Alle Branchen", "Alles in Professional", "REST API-Zugang", "SSO / SAML-Integration", "Individuelle CPV-Regeln", "Dedizierter Account Manager", "Individuelle Integrationen", "SLA-Garantie"]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know before getting started.",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles was Sie wissen müssen, bevor Sie starten.",
     "items": [
       {
-        "q": "What is TED and why should I monitor it?",
-        "a": "TED (Tenders Electronic Daily) is the EU's official procurement journal. Over 250,000 public contracts worth billions of euros are published there every year. If you sell to governments or large organizations in Europe, monitoring TED is essential to finding new business."
+        "q": "Was ist TED und warum sollte ich es überwachen?",
+        "a": "TED (Tenders Electronic Daily) ist das offizielle Vergabejournal der EU. Über 250.000 öffentliche Aufträge im Wert von Milliarden Euro werden dort jedes Jahr veröffentlicht. Wenn Sie an Regierungen oder große Organisationen in Europa verkaufen, ist die TED-Überwachung essenziell für neue Geschäfte."
       },
       {
-        "q": "How does the CPV matching work?",
-        "a": "CPV (Common Procurement Vocabulary) codes classify what a tender is about. You tell us which codes match your business — for example, 72000000 for IT services. Our system scans every new TED notice and filters by your codes, so you only see relevant opportunities."
+        "q": "Wie funktioniert das CPV-Matching?",
+        "a": "CPV (Common Procurement Vocabulary) codes klassifizieren, worum es in einer Ausschreibung geht. Sie sagen uns, welche Codes zu Ihrem Unternehmen passen — z.B. 72000000 für IT-Dienstleistungen. Unser System scannt jede neue TED-Ausschreibung und filtert nach Ihren Codes, damit Sie nur relevante Opportunities sehen."
       },
       {
-        "q": "What does \"bid-fit scoring\" mean?",
-        "a": "Our algorithm analyzes each tender against your profile — considering factors like contract value, location, required qualifications, and competition level — and assigns a 0–100% score indicating how likely you are to win. This helps you focus on the best opportunities."
+        "q": "Was bedeutet „Bid-Fit-Score\"?",
+        "a": "Unser Algorithmus analysiert jede Ausschreibung gegen Ihr Profil — unter Berücksichtigung von Faktoren wie Auftragsvolumen, Standort, erforderliche Qualifikationen und Wettbewerbsniveau — und vergibt einen Score von 0–100%, der Ihre Gewinnchance anzeigt."
       },
       {
-        "q": "Can I try TenderWatch before paying?",
-        "a": "Absolutely. Every plan comes with a 14-day free trial. No credit card required. You get full access to all features during the trial, so you can evaluate whether TenderWatch is right for your business."
+        "q": "Kann ich TenderWatch vor der Zahlung testen?",
+        "a": "Natürlich. Jedes Paket beinhaltet einen 14-tägigen kostenlosen Test. Keine Kreditkarte erforderlich. Sie haben während des Tests vollen Zugriff auf alle Features."
       },
       {
-        "q": "How is this different from just checking TED directly?",
-        "a": "TED publishes thousands of notices daily across all EU languages. Manually filtering them is a full-time job. TenderWatch automates the entire process — matching, scoring, summarizing, and alerting — so your team can focus on writing winning proposals instead of searching."
+        "q": "Wie unterscheidet sich das von TED direkt zu prüfen?",
+        "a": "TED veröffentlicht täglich Tausende von Ausschreibungen in allen EU-Sprachen. Manuelles Filtern ist ein Vollzeitjob. TenderWatch automatisiert den gesamten Prozess — Matching, Scoring, Zusammenfassung und Alerts."
       },
       {
-        "q": "Can I cancel or change my plan anytime?",
-        "a": "Yes. There are no long-term contracts. You can upgrade, downgrade, or cancel your subscription at any time. If you cancel, you keep access until the end of your current billing period."
+        "q": "Kann ich jederzeit kündigen oder mein Paket ändern?",
+        "a": "Ja. Es gibt keine langfristigen Verträge. Sie können Ihr Abonnement jederzeit upgraden, downgraden oder kündigen. Bei Kündigung behalten Sie den Zugang bis zum Ende der laufenden Abrechnungsperiode."
       }
     ]
   },
   "cta": {
-    "title": "Stop Missing EU Tenders",
-    "subtitle": "Join 50+ businesses that already use TenderWatch to find, track, and win public contracts across Europe.",
-    "button": "Start Your Free Trial",
-    "viewPricing": "View pricing →"
+    "title": "Verpassen Sie keine EU-Ausschreibungen mehr",
+    "subtitle": "Schließen Sie sich 50+ Unternehmen an, die bereits TenderWatch nutzen, um öffentliche Aufträge in Europa zu finden, verfolgen und gewinnen.",
+    "button": "Kostenlosen Testzugang starten",
+    "viewPricing": "Preise ansehen →"
   },
   "footer": {
-    "tagline": "EU procurement intelligence platform. Find, match, and win public contracts automatically.",
-    "product": "Product",
+    "tagline": "EU-Beschaffungs-Intelligence-Plattform. Finden, matchen und gewinnen Sie öffentliche Aufträge automatisch.",
+    "product": "Produkt",
     "features": "Features",
-    "pricing": "Pricing",
+    "pricing": "Preise",
     "dashboard": "Dashboard",
-    "notices": "Notices",
-    "company": "Company",
-    "about": "About",
+    "notices": "Ausschreibungen",
+    "company": "Unternehmen",
+    "about": "Über uns",
     "blog": "Blog",
-    "careers": "Careers",
-    "contact": "Contact",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "gdpr": "GDPR",
-    "copyright": "All rights reserved.",
-    "dataSourced": "Data sourced from"
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookie-Richtlinie",
+    "gdpr": "DSGVO",
+    "copyright": "Alle Rechte vorbehalten.",
+    "dataSourced": "Datenquelle"
   },
   "dashboard": {
     "title": "Dashboard",
-    "subtitle": "EU procurement opportunities at a glance",
-    "totalNotices": "Total Notices",
-    "newToday": "New Today",
-    "thisWeek": "This Week",
-    "expiringSoon": "Expiring Soon",
-    "quickFilters": "Quick Filters:",
-    "filterAll": "All",
-    "filterIT": "IT Services",
-    "filterConstruction": "Construction",
-    "filterMedical": "Medical",
-    "filterConsulting": "Consulting",
-    "filterHighFit": "High-Fit Only",
-    "topCountries": "Top Countries",
-    "topCategories": "Top Categories (CPV)",
-    "noData": "No data yet",
-    "recentNotices": "Recent Notices",
-    "viewAll": "View all →",
-    "noNotices": "No notices found yet. The collector will populate data shortly.",
-    "untitled": "Untitled Notice",
-    "unknownBuyer": "Unknown buyer"
+    "subtitle": "EU-Vergabe-Opportunities auf einen Blick",
+    "totalNotices": "Gesamte Ausschreibungen",
+    "newToday": "Neu heute",
+    "thisWeek": "Diese Woche",
+    "expiringSoon": "Bald ablaufend",
+    "quickFilters": "Schnellfilter:",
+    "filterAll": "Alle",
+    "filterIT": "IT-Dienstleistungen",
+    "filterConstruction": "Bau",
+    "filterMedical": "Medizin",
+    "filterConsulting": "Beratung",
+    "filterHighFit": "Nur hohe Übereinstimmung",
+    "topCountries": "Top-Länder",
+    "topCategories": "Top-Kategorien (CPV)",
+    "noData": "Noch keine Daten",
+    "recentNotices": "Aktuelle Ausschreibungen",
+    "viewAll": "Alle ansehen →",
+    "noNotices": "Noch keine Ausschreibungen gefunden. Der Collector wird in Kürze Daten bereitstellen.",
+    "untitled": "Ohne Titel",
+    "unknownBuyer": "Unbekannter Auftraggeber"
   },
   "notices": {
-    "title": "Notices",
-    "procurementNotices": "procurement notices",
-    "search": "Search",
-    "searchPlaceholder": "Title, buyer, keyword...",
-    "country": "Country",
-    "allCountries": "All countries",
-    "type": "Type",
-    "allTypes": "All types",
-    "filter": "Filter",
-    "reset": "Reset",
-    "noResults": "No notices match your filters",
-    "adjustSearch": "Try adjusting your search criteria",
-    "untitled": "Untitled Notice",
-    "deadline": "Deadline",
-    "pageOf": "Page {page} of {total}",
-    "previous": "← Previous",
-    "next": "Next →",
-    "buyer": "Buyer",
-    "cpvCode": "CPV Code",
-    "publicationDate": "Publication Date",
-    "estimatedValue": "Estimated Value",
-    "noticeType": "Notice Type",
-    "procedureType": "Procedure Type",
-    "description": "Description",
-    "viewOnTed": "View on TED",
-    "backToNotices": "Back to notices",
-    "deadlinePassed": "Deadline passed",
-    "daysLeft": "{days} days left",
-    "oneDayLeft": "1 day left"
+    "title": "Ausschreibungen",
+    "procurementNotices": "Vergabe-Ausschreibungen",
+    "search": "Suche",
+    "searchPlaceholder": "Titel, Auftraggeber, Stichwort...",
+    "country": "Land",
+    "allCountries": "Alle Länder",
+    "type": "Typ",
+    "allTypes": "Alle Typen",
+    "filter": "Filtern",
+    "reset": "Zurücksetzen",
+    "noResults": "Keine Ausschreibungen entsprechen Ihren Filtern",
+    "adjustSearch": "Versuchen Sie, Ihre Suchkriterien anzupassen",
+    "untitled": "Ohne Titel",
+    "deadline": "Frist",
+    "pageOf": "Seite {page} von {total}",
+    "previous": "← Zurück",
+    "next": "Weiter →",
+    "buyer": "Auftraggeber",
+    "cpvCode": "CPV-Code",
+    "publicationDate": "Veröffentlichungsdatum",
+    "estimatedValue": "Geschätzter Wert",
+    "noticeType": "Ausschreibungstyp",
+    "procedureType": "Verfahrensart",
+    "description": "Beschreibung",
+    "viewOnTed": "Auf TED ansehen",
+    "backToNotices": "Zurück zu den Ausschreibungen",
+    "deadlinePassed": "Frist abgelaufen",
+    "daysLeft": "{days} Tage verbleibend",
+    "oneDayLeft": "1 Tag verbleibend"
   },
   "branches": {
     "bau": "Bau & Construction",
     "it": "IT & Software",
     "facility": "Facility Management",
     "beratung": "Beratung & Consulting"
+  },
+  "branche": {
+    "bau": {
+      "heroHeadline": "Bau-Ausschreibungen in der EU – Täglich neue Opportunities",
+      "heroSubheadline": "Verpassen Sie keinen Bauauftrag mehr. TenderWatch scannt täglich alle EU-Vergabeplattformen und liefert Ihnen passende Ausschreibungen aus dem Bauwesen – automatisch gefiltert nach CPV 45xxxxxx.",
+      "statsLabel": "Bau & Construction · CPV 45xxxxxx",
+      "industryName": "Bau",
+      "benefits": [
+        {
+          "title": "Spezialisierte Bau-Filter",
+          "desc": "Unser CPV-Matching erkennt alle relevanten Bau-Ausschreibungen — von Hochbau über Tiefbau bis Sanierung. Sie sehen nur, was zu Ihrem Unternehmen passt."
+        },
+        {
+          "title": "Fristen im Blick",
+          "desc": "Bau-Projekte haben enge Angebotsfristen. TenderWatch benachrichtigt Sie automatisch 7, 3 und 1 Tag vor Ablauf — damit Sie nie wieder eine Deadline verpassen."
+        },
+        {
+          "title": "Wettbewerbsanalyse",
+          "desc": "Erfahren Sie, wie viele Bieter sich für ähnliche Bauaufträge beworben haben und erhalten Sie eine realistische Einschätzung Ihrer Gewinnchancen."
+        },
+        {
+          "title": "Projektwert-Filter",
+          "desc": "Filtern Sie nach Auftragsvolumen — ob kleine Sanierungsprojekte unter 100.000€ oder Großprojekte über 10 Mio.€. Passen Sie Ihre Suche Ihrem Unternehmensprofil an."
+        },
+        {
+          "title": "Regionale Abdeckung",
+          "desc": "Bau-Ausschreibungen aus allen 27 EU-Mitgliedsstaaten. Filtern Sie nach Land, Region oder nahezu beliebigen Standorten für Ihre Projekte."
+        },
+        {
+          "title": "KI-Zusammenfassungen",
+          "desc": "Lange Vergabeunterlagen? Unsere KI extrahiert die wichtigsten Anforderungen, Zeitpläne und Bewertungskriterien — sparen Sie Stunden bei jeder Ausschreibung."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "it": {
+      "heroHeadline": "IT-Ausschreibungen in der EU – Software, Cloud & Services",
+      "heroSubheadline": "Entdecken Sie lukrative IT-Aufträge der öffentlichen Hand. Von Softwareentwicklung über Cloud-Migration bis Cybersecurity — TenderWatch liefert täglich passende Ausschreibungen nach CPV 72xxxxxx.",
+      "statsLabel": "IT & Software · CPV 72xxxxxx",
+      "industryName": "IT",
+      "benefits": [
+        {
+          "title": "IT-spezifische Kategorisierung",
+          "desc": "Unser System unterscheidet zwischen Softwareentwicklung, IT-Beratung, Cloud-Services, Wartung und mehr. Sie finden sofort die passenden Aufträge."
+        },
+        {
+          "title": "Rahmenverträge erkennen",
+          "desc": "Öffentliche IT-Beschaffung basiert oft auf Rahmenverträgen. TenderWatch identifiziert diese und zeigt Ihnen die echten Laufzeiten und Volumina."
+        },
+        {
+          "title": "Technologie-Filter",
+          "desc": "Suchen Sie nach spezifischen Technologien — SAP, Microsoft, AWS, Azure, Open Source. Unser KI-System scannt auch die Beschreibungstexte für Sie."
+        },
+        {
+          "title": "Smarte Benachrichtigungen",
+          "desc": "Echtzeit-Alerts für neue IT-Ausschreibungen. Passen Sie Ihre Filter an und erhalten Sie sofort eine E-Mail, wenn ein passender Auftrag erscheint."
+        },
+        {
+          "title": "Wettbewerbsintelligenz",
+          "desc": "Sehen Sie, welche IT-Dienstleister sich für ähnliche Aufträge bewerben und wie hoch die durchschnittliche Bieterzahl in Ihrem Segment ist."
+        },
+        {
+          "title": "Bid-Fit Scoring",
+          "desc": "Jede Ausschreibung erhält einen 0–100% Match-Score. Konzentrieren Sie sich auf die Aufträge, die am besten zu Ihrem IT-Unternehmen passen."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "facility": {
+      "heroHeadline": "Facility Management Ausschreibungen – Reinigung, Technik & mehr",
+      "heroSubheadline": "Der öffentliche Sektor ist einer der größten Auftraggeber für Facility Management. Entdecken Sie tägliche Ausschreibungen für Gebäudereinigung, Haustechnik, Sicherheitsdienste und mehr — gefiltert nach CPV 50xxxxxx.",
+      "statsLabel": "Facility Management · CPV 50xxxxxx",
+      "industryName": "Facility Management",
+      "benefits": [
+        {
+          "title": "Alle FM-Sparten abgedeckt",
+          "desc": "Von Gebäudereinigung über Haustechnik bis Sicherheitsdienste — unser CPV-Matching deckt alle Bereiche des Facility Managements ab."
+        },
+        {
+          "title": "Laufende Verträge erkennen",
+          "desc": "Viele FM-Ausschreibungen sind Nachfolgeverträge. TenderWatch zeigt Ihnen, wann bestehende Verträge auslaufen — für perfekte Timing-Ihres Angebots."
+        },
+        {
+          "title": "Regionale Fokussierung",
+          "desc": "FM-Projekte erfordern lokale Präsenz. Filtern Sie nach Ländern und Regionen, um nur Ausschreibungen in Ihrem Einzugsgebiet zu sehen."
+        },
+        {
+          "title": "Wertgrenzen & Losvergabe",
+          "desc": "Verstehen Sie die Aufteilung in Lose und ermitteln Sie, welche Teilleistungen für Ihr Unternehmen attraktiv sind."
+        },
+        {
+          "title": "Automatische Fristenwarnung",
+          "desc": "FM-Ausschreibungen haben oft kurze Angebotsfristen. Mit TenderWatch verpassen Sie keine Deadline mehr — mit Erinnerungen 7, 3 und 1 Tag vor Ablauf."
+        },
+        {
+          "title": "Export & Reporting",
+          "desc": "Exportieren Sie FM-Ausschreibungen als CSV oder Excel und teilen Sie sie mit Ihrem Team. Ideal für wöchentliche Vertriebsmeetings."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "beratung": {
+      "heroHeadline": "Beratungs-Ausschreibungen – Consulting-Aufträge der öffentlichen Hand",
+      "heroSubheadline": "Die öffentliche Hand vergibt jährlich Milliarden für Beratungsleistungen. Von Strategieberatung über Marktforschung bis Projektmanagement — TenderWatch liefert täglich passende Ausschreibungen nach CPV 73xxxxxx.",
+      "statsLabel": "Beratung & Consulting · CPV 73xxxxxx",
+      "industryName": "Beratung",
+      "benefits": [
+        {
+          "title": "Beratungsspezifische Filter",
+          "desc": "Unser System unterscheidet zwischen Managementberatung, IT-Beratung, Marktforschung, technischer Beratung und weiteren Consulting-Bereichen."
+        },
+        {
+          "title": "Rahmenvertrag-Übersicht",
+          "desc": "Beratungsleistungen werden oft über Rahmenverträge vergeben. Erkennen Sie die echten Volumina und Laufzeiten auf einen Blick."
+        },
+        {
+          "title": "Bewertungskriterien verstehen",
+          "desc": "Unsere KI extrahiert die Bewertungskriterien aus den Vergabeunterlagen — Preis, Qualität, Erfahrung, Methodik — damit Sie Ihr Angebot optimal ausrichten."
+        },
+        {
+          "title": "Referenzanforderungen filtern",
+          "desc": "Viele Beratungsausschreibungen erfordern spezifische Referenzen. Filtern Sie nach Anforderungen, die Ihr Beratungsunternehmen erfüllt."
+        },
+        {
+          "title": "Team-Kapazitätsplanung",
+          "desc": "Planen Sie Ihre Ressourcen besser. TenderWatch zeigt Ihnen anstehende Fristen und hilft, Ihr Beratungsteam rechtzeitig einzuplanen."
+        },
+        {
+          "title": "Wettbewerbsbeobachtung",
+          "desc": "Erfahren Sie, welche Beratungen sich für ähnliche Aufträge bewerben. Nutzen Sie diese Intelligenz für Ihre strategische Positionierung."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Willkommen zurück",
+    "signInOrCreate": "Melden Sie sich an oder erstellen Sie ein Konto mit Ihrer E-Mail",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "sie@beispiel.de",
+    "sendMagicLink": "Magic Link senden",
+    "sending": "Wird gesendet…",
+    "noPassword": "Kein Passwort nötig. Wir senden Ihnen einen sicheren Anmeldelink per E-Mail.",
+    "checkEmail": "Überprüfen Sie Ihre E-Mail",
+    "magicLinkSent": "Wir haben einen Magic Link an <strong>{email}</strong> gesendet. Klicken Sie auf den Link, um sich anzumelden.",
+    "useDifferentEmail": "Andere E-Mail verwenden",
+    "backToWebsite": "← Zurück zur Website",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "common": {
+    "loading": "Wird geladen…",
+    "error": "Fehler",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "reset": "Zurücksetzen",
+    "apply": "Anwenden",
+    "export": "Exportieren",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "of": "von",
+    "page": "Seite"
   }
 }

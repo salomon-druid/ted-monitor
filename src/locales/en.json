@@ -189,5 +189,240 @@
     "it": "IT & Software",
     "facility": "Facility Management",
     "beratung": "Consulting"
+  },
+  "branche": {
+    "bau": {
+      "heroHeadline": "EU Construction Tenders — New Opportunities Daily",
+      "heroSubheadline": "Never miss a construction contract again. TenderWatch scans all EU procurement platforms daily and delivers matching construction tenders — automatically filtered by CPV 45xxxxxx.",
+      "statsLabel": "Construction · CPV 45xxxxxx",
+      "industryName": "Construction",
+      "benefits": [
+        {
+          "title": "Specialized Construction Filters",
+          "desc": "Our CPV matching identifies all relevant construction tenders — from building to civil engineering to renovation. You only see what fits your business."
+        },
+        {
+          "title": "Deadline Tracking",
+          "desc": "Construction projects have tight submission deadlines. TenderWatch automatically notifies you 7, 3, and 1 day before expiry — so you never miss a deadline."
+        },
+        {
+          "title": "Competition Analysis",
+          "desc": "Learn how many bidders applied for similar construction contracts and get a realistic assessment of your winning chances."
+        },
+        {
+          "title": "Project Value Filters",
+          "desc": "Filter by contract volume — whether small renovation projects under €100k or major projects over €10M. Tailor your search to your company profile."
+        },
+        {
+          "title": "Regional Coverage",
+          "desc": "Construction tenders from all 27 EU member states. Filter by country, region, or virtually any location for your projects."
+        },
+        {
+          "title": "AI Summaries",
+          "desc": "Long procurement documents? Our AI extracts the key requirements, timelines, and evaluation criteria — saving you hours on each tender."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
+      "whySubtitle": "Tailored for the needs of the {industry} industry.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your free trial",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never Miss a {industry} Tender Again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start for Free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "Try free for 14 days",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "it": {
+      "heroHeadline": "EU IT Tenders — Software, Cloud & Services",
+      "heroSubheadline": "Discover lucrative public sector IT contracts. From software development to cloud migration to cybersecurity — TenderWatch delivers matching tenders daily by CPV 72xxxxxx.",
+      "statsLabel": "IT & Software · CPV 72xxxxxx",
+      "industryName": "IT",
+      "benefits": [
+        {
+          "title": "IT-Specific Categorization",
+          "desc": "Our system distinguishes between software development, IT consulting, cloud services, maintenance and more. You immediately find the right contracts."
+        },
+        {
+          "title": "Framework Agreement Detection",
+          "desc": "Public IT procurement often relies on framework agreements. TenderWatch identifies these and shows you the actual durations and volumes."
+        },
+        {
+          "title": "Technology Filters",
+          "desc": "Search for specific technologies — SAP, Microsoft, AWS, Azure, Open Source. Our AI system also scans the description texts for you."
+        },
+        {
+          "title": "Smart Notifications",
+          "desc": "Real-time alerts for new IT tenders. Adjust your filters and receive an email immediately when a matching contract appears."
+        },
+        {
+          "title": "Competitive Intelligence",
+          "desc": "See which IT service providers bid on similar contracts and how many bidders are typical in your segment."
+        },
+        {
+          "title": "Bid-Fit Scoring",
+          "desc": "Every tender gets a 0–100% match score. Focus on the contracts that best fit your IT company."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
+      "whySubtitle": "Tailored for the needs of the {industry} industry.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your free trial",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never Miss a {industry} Tender Again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start for Free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "Try free for 14 days",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "facility": {
+      "heroHeadline": "Facility Management Tenders — Cleaning, Technical Services & More",
+      "heroSubheadline": "The public sector is one of the largest clients for facility management. Discover daily tenders for building cleaning, technical services, security services and more — filtered by CPV 50xxxxxx.",
+      "statsLabel": "Facility Management · CPV 50xxxxxx",
+      "industryName": "Facility Management",
+      "benefits": [
+        {
+          "title": "All FM Segments Covered",
+          "desc": "From building cleaning to technical services to security — our CPV matching covers all areas of facility management."
+        },
+        {
+          "title": "Detect Ongoing Contracts",
+          "desc": "Many FM tenders are follow-up contracts. TenderWatch shows you when existing contracts expire — for perfect timing of your bid."
+        },
+        {
+          "title": "Regional Focus",
+          "desc": "FM projects require local presence. Filter by countries and regions to only see tenders in your service area."
+        },
+        {
+          "title": "Value Thresholds & Lot Division",
+          "desc": "Understand the division into lots and identify which sub-services are attractive for your business."
+        },
+        {
+          "title": "Automatic Deadline Alerts",
+          "desc": "FM tenders often have short submission deadlines. With TenderWatch you never miss a deadline — with reminders 7, 3, and 1 day before expiry."
+        },
+        {
+          "title": "Export & Reporting",
+          "desc": "Export FM tenders as CSV or Excel and share them with your team. Ideal for weekly sales meetings."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
+      "whySubtitle": "Tailored for the needs of the {industry} industry.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your free trial",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never Miss a {industry} Tender Again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start for Free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "Try free for 14 days",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "beratung": {
+      "heroHeadline": "Consulting Tenders — Public Sector Contracts",
+      "heroSubheadline": "The public sector awards billions in consulting contracts annually. From strategic consulting to market research to project management — TenderWatch delivers matching tenders daily by CPV 73xxxxxx.",
+      "statsLabel": "Consulting · CPV 73xxxxxx",
+      "industryName": "Consulting",
+      "benefits": [
+        {
+          "title": "Consulting-Specific Filters",
+          "desc": "Our system distinguishes between management consulting, IT consulting, market research, technical consulting and other consulting areas."
+        },
+        {
+          "title": "Framework Agreement Overview",
+          "desc": "Consulting services are often awarded through framework agreements. Identify the actual volumes and durations at a glance."
+        },
+        {
+          "title": "Understand Evaluation Criteria",
+          "desc": "Our AI extracts the evaluation criteria from procurement documents — price, quality, experience, methodology — so you can optimize your proposal."
+        },
+        {
+          "title": "Reference Requirement Filters",
+          "desc": "Many consulting tenders require specific references. Filter by requirements that your consulting firm meets."
+        },
+        {
+          "title": "Team Capacity Planning",
+          "desc": "Plan your resources better. TenderWatch shows upcoming deadlines and helps schedule your consulting team in time."
+        },
+        {
+          "title": "Competitive Monitoring",
+          "desc": "Learn which consultancies bid on similar contracts. Use this intelligence for your strategic positioning."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
+      "whySubtitle": "Tailored for the needs of the {industry} industry.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your free trial",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never Miss a {industry} Tender Again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start for Free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "Try free for 14 days",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInOrCreate": "Sign in or create an account with your email",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "sendMagicLink": "Send magic link",
+    "sending": "Sending link…",
+    "noPassword": "No password needed. We'll email you a secure sign-in link.",
+    "checkEmail": "Check your email",
+    "magicLinkSent": "We sent a magic link to <strong>{email}</strong>. Click the link to sign in.",
+    "useDifferentEmail": "Use a different email",
+    "backToWebsite": "← Back to website",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "apply": "Apply",
+    "export": "Export",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "of": "of",
+    "page": "Page"
   }
 }

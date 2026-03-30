@@ -189,5 +189,240 @@
     "it": "IT & Logiciel",
     "facility": "Gestion des installations",
     "beratung": "Conseil"
+  },
+  "branche": {
+    "bau": {
+      "heroHeadline": "Appels d'offres BTP dans l'UE — Nouvelles opportunités quotidiennes",
+      "heroSubheadline": "Ne manquez plus aucun contrat de construction. TenderWatch analyse toutes les plateformes de marchés publics de l'UE quotidiennement et vous livre les appels d'offres BTP correspondants — filtrés automatiquement par CPV 45xxxxxx.",
+      "statsLabel": "BTP & Construction · CPV 45xxxxxx",
+      "industryName": "BTP",
+      "benefits": [
+        {
+          "title": "Filtres BTP spécialisés",
+          "desc": "Notre correspondance CPV identifie tous les appels d'offres BTP pertinents — du bâtiment au génie civil en passant par la rénovation. Vous ne voyez que ce qui correspond à votre entreprise."
+        },
+        {
+          "title": "Suivi des délais",
+          "desc": "Les projets de construction ont des délais serrés. TenderWatch vous notifie automatiquement 7, 3 et 1 jour avant l'expiration — pour ne plus jamais manquer une échéance."
+        },
+        {
+          "title": "Analyse de la concurrence",
+          "desc": "Découvrez combien de soumissionnaires ont postulé pour des contrats similaires et obtenez une estimation réaliste de vos chances de succès."
+        },
+        {
+          "title": "Filtres par valeur de projet",
+          "desc": "Filtrez par volume de contrat — petits projets de rénovation sous 100 000€ ou grands projets au-delà de 10 M€. Adaptez votre recherche à votre profil d'entreprise."
+        },
+        {
+          "title": "Couverture régionale",
+          "desc": "Appels d'offres BTP des 27 États membres de l'UE. Filtrez par pays, région ou pratiquement tout lieu pour vos projets."
+        },
+        {
+          "title": "Résumés IA",
+          "desc": "Des documents de passation longs ? Notre IA extrait les exigences clés, les calendriers et les critères d'évaluation — vous faites gagner des heures à chaque appel d'offres."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utilise TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou commencez votre essai gratuit",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Commencez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Commencer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuits · Sans carte bancaire · Résiliez à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    },
+    "it": {
+      "heroHeadline": "Appels d'offres IT dans l'UE — Logiciel, Cloud & Services",
+      "heroSubheadline": "Découvrez les contrats IT lucratifs du secteur public. Du développement logiciel à la migration cloud en passant par la cybersécurité — TenderWatch livre quotidiennement les appels d'offres correspondants par CPV 72xxxxxx.",
+      "statsLabel": "IT & Logiciel · CPV 72xxxxxx",
+      "industryName": "IT",
+      "benefits": [
+        {
+          "title": "Catégorisation spécifique IT",
+          "desc": "Notre système distingue le développement logiciel, le conseil IT, les services cloud, la maintenance et plus. Vous trouvez immédiatement les bons contrats."
+        },
+        {
+          "title": "Détection des accords-cadres",
+          "desc": "L'achat public IT repose souvent sur des accords-cadres. TenderWatch les identifie et vous montre les durées et volumes réels."
+        },
+        {
+          "title": "Filtres technologiques",
+          "desc": "Recherchez par technologies spécifiques — SAP, Microsoft, AWS, Azure, Open Source. Notre IA analyse aussi les textes descriptifs pour vous."
+        },
+        {
+          "title": "Notifications intelligentes",
+          "desc": "Alertes en temps réel pour les nouveaux appels d'offres IT. Ajustez vos filtres et recevez un email dès qu'un contrat correspondant apparaît."
+        },
+        {
+          "title": "Intelligence concurrentielle",
+          "desc": "Voyez quels prestataires IT soumissionnent pour des contrats similaires et combien de candidats sont typiques dans votre segment."
+        },
+        {
+          "title": "Score d'adéquation",
+          "desc": "Chaque appel d'offres reçoit un score de correspondance de 0 à 100%. Concentrez-vous sur les contrats qui correspondent le mieux à votre entreprise IT."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utilise TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou commencez votre essai gratuit",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Commencez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Commencer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuits · Sans carte bancaire · Résiliez à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    },
+    "facility": {
+      "heroHeadline": "Appels d'offres Facility Management — Nettoyage, Technique & plus",
+      "heroSubheadline": "Le secteur public est l'un des plus grands donneurs d'ordres en facility management. Découvrez les appels d'offres quotidiens pour le nettoyage de bâtiments, la technique immobilière, les services de sécurité et plus — filtrés par CPV 50xxxxxx.",
+      "statsLabel": "Facility Management · CPV 50xxxxxx",
+      "industryName": "Facility Management",
+      "benefits": [
+        {
+          "title": "Tous les segments FM couverts",
+          "desc": "Du nettoyage de bâtiments à la technique immobilière en passant par la sécurité — notre correspondance CPV couvre tous les domaines du facility management."
+        },
+        {
+          "title": "Détecter les contrats en cours",
+          "desc": "De nombreux appels d'offres FM sont des contrats de suivi. TenderWatch vous montre quand les contrats existants expirent — pour un timing parfait de votre offre."
+        },
+        {
+          "title": "Focus régional",
+          "desc": "Les projets FM nécessitent une présence locale. Filtrez par pays et régions pour ne voir que les appels d'offres dans votre zone de service."
+        },
+        {
+          "title": "Seuils de valeur & lots",
+          "desc": "Comprenez la répartition en lots et identifiez quels sous-services sont attractifs pour votre entreprise."
+        },
+        {
+          "title": "Alertes automatiques d'échéance",
+          "desc": "Les appels d'offres FM ont souvent des délais courts. Avec TenderWatch, vous ne manquez plus jamais une échéance — avec des rappels 7, 3 et 1 jour avant expiration."
+        },
+        {
+          "title": "Export & Reporting",
+          "desc": "Exportez les appels d'offres FM en CSV ou Excel et partagez-les avec votre équipe. Idéal pour les réunions commerciales hebdomadaires."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utilise TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou commencez votre essai gratuit",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Commencez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Commencer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuits · Sans carte bancaire · Résiliez à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    },
+    "beratung": {
+      "heroHeadline": "Appels d'offres Conseil — Contrats du secteur public",
+      "heroSubheadline": "Le secteur public attribue des milliards en contrats de conseil chaque année. Du conseil stratégique à l'étude de marché en passant par la gestion de projet — TenderWatch livre quotidiennement les appels d'offres correspondants par CPV 73xxxxxx.",
+      "statsLabel": "Conseil · CPV 73xxxxxx",
+      "industryName": "Conseil",
+      "benefits": [
+        {
+          "title": "Filtres spécifiques au conseil",
+          "desc": "Notre système distingue le conseil en management, le conseil IT, l'étude de marché, le conseil technique et d'autres domaines de conseil."
+        },
+        {
+          "title": "Vue d'ensemble des accords-cadres",
+          "desc": "Les services de conseil sont souvent attribués via des accords-cadres. Identifiez les volumes et durées réels en un coup d'œil."
+        },
+        {
+          "title": "Comprendre les critères d'évaluation",
+          "desc": "Notre IA extrait les critères d'évaluation des documents de passation — prix, qualité, expérience, méthodologie — pour optimiser votre proposition."
+        },
+        {
+          "title": "Filtres d'exigences de références",
+          "desc": "De nombreux appels d'offres conseil exigent des références spécifiques. Filtrez par exigences que votre cabinet remplit."
+        },
+        {
+          "title": "Planification de la capacité d'équipe",
+          "desc": "Mieux planifiez vos ressources. TenderWatch affiche les échéances à venir et aide à planifier votre équipe de conseil à temps."
+        },
+        {
+          "title": "Veille concurrentielle",
+          "desc": "Découvrez quels cabinets soumissionnent pour des contrats similaires. Utilisez cette intelligence pour votre positionnement stratégique."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utilise TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou commencez votre essai gratuit",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Commencez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Commencer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuits · Sans carte bancaire · Résiliez à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    }
+  },
+  "auth": {
+    "welcomeBack": "Bon retour",
+    "signInOrCreate": "Connectez-vous ou créez un compte avec votre email",
+    "emailLabel": "Adresse email",
+    "emailPlaceholder": "vous@exemple.com",
+    "sendMagicLink": "Envoyer le magic link",
+    "sending": "Envoi en cours…",
+    "noPassword": "Pas de mot de passe. Nous vous enverrons un lien de connexion sécurisé par email.",
+    "checkEmail": "Vérifiez votre email",
+    "magicLinkSent": "Nous avons envoyé un magic link à <strong>{email}</strong>. Cliquez sur le lien pour vous connecter.",
+    "useDifferentEmail": "Utiliser une autre adresse email",
+    "backToWebsite": "← Retour au site",
+    "errorGeneric": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Erreur",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "apply": "Appliquer",
+    "export": "Exporter",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "of": "sur",
+    "page": "Page"
   }
 }
