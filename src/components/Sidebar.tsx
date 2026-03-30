@@ -1,15 +1,33 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
+import { useState } from 'react';
 
 const navItems = [
   { href: '/dashboard', label: 'Dashboard', icon: DashboardIcon },
   { href: '/notices', label: 'Notices', icon: NoticesIcon },
 ];
 
-export default function Sidebar() {
+interface SidebarProps {
+  userEmail?: string | null;
+}
+
+export default function Sidebar({ userEmail }: SidebarProps) {
   const pathname = usePathname();
+  const router = useRouter();
+  const [signingOut, setSigningOut] = useState(false);
+
+  async function handleSignOut() {
+    setSigningOut(true);
+    try {
+      await fetch('/api/auth/signout', { method: 'POST' });
+      router.push('/');
+      router.refresh();
+    } catch {
+      setSigningOut(false);
+    }
+  }
 
   return (
     <aside className="fixed left-0 top-0 bottom-0 w-64 bg-dark text-white flex flex-col z-40">
@@ -54,6 +72,35 @@ export default function Sidebar() {
 
       {/* Bottom */}
       <div className="p-4 border-t border-white/10">
+        {/* Auth section */}
+        {userEmail ? (
+          <div className="mb-3 px-4">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="w-6 h-6 bg-primary/30 rounded-full flex items-center justify-center">
+                <span className="text-[10px] font-bold text-primary">{userEmail.charAt(0).toUpperCase()}</span>
+              </div>
+              <span className="text-xs text-gray-400 truncate" title={userEmail}>{userEmail}</span>
+            </div>
+            <button
+              onClick={handleSignOut}
+              disabled={signingOut}
+              className="text-xs text-gray-500 hover:text-gray-300 transition-colors disabled:opacity-50"
+            >
+              {signingOut ? 'Signing out…' : 'Sign out'}
+            </button>
+          </div>
+        ) : (
+          <Link
+            href="/auth"
+            className="flex items-center gap-2 px-4 py-2 mb-3 text-xs text-gray-400 hover:text-white transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+            </svg>
+            Login
+          </Link>
+        )}
+
         <div className="flex items-center gap-2 px-4 py-2">
           <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
           <span className="text-xs text-gray-500">Live data from TED</span>

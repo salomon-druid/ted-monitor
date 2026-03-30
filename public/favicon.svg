@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="4" fill="#1e40af"/>
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Gavel head -->
+    <rect x="14" y="4" width="12" height="6" rx="1" transform="rotate(45 14 4)"/>
+    <!-- Gavel handle -->
+    <line x1="10" y1="18" x2="6" y2="22"/>
+    <line x1="6" y1="22" x2="4" y2="24"/>
+    <!-- Strike line -->
+    <line x1="8" y1="26" x2="20" y2="26"/>
+    <line x1="6" y1="28" x2="22" y2="28"/>
+  </g>
+</svg>
