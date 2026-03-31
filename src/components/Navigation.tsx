@@ -32,7 +32,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <img src="/logo.png" alt="TenderWatch" className="w-10 h-10 group-hover:scale-105 transition-transform" />
+            <img src="/logo.png" alt="TenderWatch" className="w-14 h-14 group-hover:scale-105 transition-transform" />
             <span className="text-lg font-bold text-dark tracking-tight">
               Tender<span className="text-primary">Watch</span>
             </span>
