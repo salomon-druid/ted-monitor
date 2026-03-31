@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function AuthPage() {
+  const { t } = useLanguage();
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
@@ -29,7 +30,7 @@ export default function AuthPage() {
         setSent(true);
       }
     } catch (err) {
-      setError('Something went wrong. Please try again.');
+      setError(t('auth.errorGeneric'));
     } finally {
       setLoading(false);
     }
@@ -62,35 +63,37 @@ export default function AuthPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
               </div>
-              <h2 className="text-xl font-bold text-dark mb-2">Check your email</h2>
+              <h2 className="text-xl font-bold text-dark mb-2">{t('auth.checkEmail')}</h2>
               <p className="text-gray-500 text-sm mb-6">
-                We sent a magic link to <strong className="text-dark">{email}</strong>. Click the link to sign in.
+                <span dangerouslySetInnerHTML={{
+                  __html: t('auth.magicLinkSent').replace('{email}', `<strong class="text-dark">${email}</strong>`)
+                }} />
               </p>
               <button
                 onClick={() => { setSent(false); setEmail(''); }}
                 className="text-sm text-primary font-medium hover:underline"
               >
-                Use a different email
+                {t('auth.useDifferentEmail')}
               </button>
             </div>
           ) : (
             <>
-              <h2 className="text-xl font-bold text-dark text-center mb-1">Welcome back</h2>
+              <h2 className="text-xl font-bold text-dark text-center mb-1">{t('auth.welcomeBack')}</h2>
               <p className="text-gray-500 text-sm text-center mb-6">
-                Sign in or create an account with your email
+                {t('auth.signInOrCreate')}
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1.5">
-                    Email address
+                    {t('auth.emailLabel')}
                   </label>
                   <input
                     id="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="you@example.com"
+                    placeholder={t('auth.emailPlaceholder')}
                     required
                     className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                   />
@@ -113,23 +116,23 @@ export default function AuthPage() {
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                       </svg>
-                      Sending link…
+                      {t('auth.sending')}
                     </span>
                   ) : (
-                    'Send magic link'
+                    t('auth.sendMagicLink')
                   )}
                 </button>
               </form>
 
               <p className="text-xs text-gray-400 text-center mt-6">
-                No password needed. We'll email you a secure sign-in link.
+                {t('auth.noPassword')}
               </p>
             </>
           )}
         </div>
 
         <p className="text-xs text-gray-400 text-center mt-6">
-          <Link href="/" className="hover:text-gray-600">← Back to website</Link>
+          <Link href="/" className="hover:text-gray-600">{t('auth.backToWebsite')}</Link>
         </p>
       </div>
     </div>
