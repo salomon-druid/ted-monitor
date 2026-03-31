@@ -1,11 +1,42 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { useLanguage } from '@/context/LanguageContext';
 
+async function startCheckout(plan: string) {
+  try {
+    const res = await fetch('/api/billing/checkout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ plan }),
+    });
+    const data = await res.json();
+    if (data.url) {
+      window.location.href = data.url;
+    } else if (data.error) {
+      // If not authenticated, redirect to auth
+      if (res.status === 401) {
+        window.location.href = '/auth';
+      } else {
+        alert(data.error);
+      }
+    }
+  } catch (err) {
+    window.location.href = '/auth';
+  }
+}
+
 export default function HomePage() {
   const { t } = useLanguage();
+  const [checkoutLoading, setCheckoutLoading] = useState<string | null>(null);
+
+  async function handleCheckout(plan: string) {
+    setCheckoutLoading(plan);
+    await startCheckout(plan);
+    setCheckoutLoading(null);
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -297,9 +328,9 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/dashboard" className="btn-secondary w-full text-center">
-                {t('pricing.startTrial')}
-              </Link>
+              <button onClick={() => handleCheckout('starter')} disabled={checkoutLoading === 'starter'} className="btn-secondary w-full text-center">
+                {checkoutLoading === 'starter' ? '...' : t('pricing.startTrial')}
+              </button>
             </div>
 
             {/* Professional — Featured */}
@@ -327,9 +358,9 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/dashboard" className="btn-primary w-full text-center">
-                {t('pricing.startTrial')}
-              </Link>
+              <button onClick={() => handleCheckout('professional')} disabled={checkoutLoading === 'professional'} className="btn-primary w-full text-center">
+                {checkoutLoading === 'professional' ? '...' : t('pricing.startTrial')}
+              </button>
             </div>
 
             {/* Enterprise */}
@@ -352,9 +383,9 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/dashboard" className="btn-gold w-full text-center">
-                {t('pricing.contactSales')}
-              </Link>
+              <button onClick={() => handleCheckout('enterprise')} disabled={checkoutLoading === 'enterprise'} className="btn-gold w-full text-center">
+                {checkoutLoading === 'enterprise' ? '...' : t('pricing.contactSales')}
+              </button>
             </div>
           </div>
         </div>
