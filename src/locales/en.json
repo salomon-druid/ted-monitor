@@ -201,7 +201,10 @@
     "viewAll": "View all →",
     "noNotices": "No notices found yet. The collector will populate data shortly.",
     "untitled": "Untitled Notice",
-    "unknownBuyer": "Unknown buyer"
+    "unknownBuyer": "Unknown buyer",
+    "upgradeTitle": "Upgrade to Professional",
+    "upgradeDescription": "Get unlimited notices, real-time alerts, and advanced AI summaries.",
+    "upgradeButton": "Upgrade now"
   },
   "notices": {
     "title": "Notices",

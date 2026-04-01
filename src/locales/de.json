@@ -201,7 +201,10 @@
     "viewAll": "Alle ansehen →",
     "noNotices": "Noch keine Ausschreibungen gefunden. Der Collector wird in Kürze Daten bereitstellen.",
     "untitled": "Ohne Titel",
-    "unknownBuyer": "Unbekannter Auftraggeber"
+    "unknownBuyer": "Unbekannter Auftraggeber",
+    "upgradeTitle": "Auf Professional upgraden",
+    "upgradeDescription": "Erhalten Sie unbegrenzte Ausschreibungen, Echtzeit-Alerts und erweiterte KI-Zusammenfassungen.",
+    "upgradeButton": "Jetzt upgraden"
   },
   "notices": {
     "title": "Ausschreibungen",

@@ -91,6 +91,22 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
       <Sidebar />
 
       <main className="flex-1 ml-64 p-8 bg-background min-h-screen">
+        {/* Upgrade Banner */}
+        <div className="mb-6 p-4 bg-gradient-to-r from-primary/5 to-gold/5 border border-primary/20 rounded-xl">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="text-sm font-semibold text-dark">{t('dashboard.upgradeTitle')}</h3>
+              <p className="text-xs text-gray-600 mt-1">{t('dashboard.upgradeDescription')}</p>
+            </div>
+            <Link
+              href="/pricing"
+              className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
+            >
+              {t('dashboard.upgradeButton')}
+            </Link>
+          </div>
+        </div>
+
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-dark">{t('dashboard.title')}</h1>
           <p className="text-gray-500 text-sm mt-1">{t('dashboard.subtitle')}</p>

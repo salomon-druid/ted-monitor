@@ -201,7 +201,10 @@
     "viewAll": "Voir tout →",
     "noNotices": "Aucun avis trouvé pour le moment. Le collecteur remplira les données prochainement.",
     "untitled": "Avis sans titre",
-    "unknownBuyer": "Acheteur inconnu"
+    "unknownBuyer": "Acheteur inconnu",
+    "upgradeTitle": "Passer à Professional",
+    "upgradeDescription": "Obtenez des avis illimités, des alertes en temps réel et des résumés IA avancés.",
+    "upgradeButton": "Mettre à niveau"
   },
   "notices": {
     "title": "Avis",
