@@ -731,6 +731,11 @@
     "dimCountry": "Correspondance pays",
     "dimKeywords": "Mots-clés trouvés",
     "dimValue": "Plage de valeur",
-    "dimUrgency": "Urgence"
+    "dimUrgency": "Urgence",
+    "breakdown": "Répartition du score",
+    "actionHigh": "Demander ce marché",
+    "actionMedium": "Examiner les détails",
+    "actionLow": "Vérifier la pertinence",
+    "actionPass": "Non pertinent"
   }
 }

@@ -731,6 +731,11 @@
     "dimCountry": "Länder-Match",
     "dimKeywords": "Schlüsselwort-Treffer",
     "dimValue": "Wert-Bereich",
-    "dimUrgency": "Dringlichkeit"
+    "dimUrgency": "Dringlichkeit",
+    "breakdown": "Score-Aufschlüsselung",
+    "actionHigh": "Ausschreibung anfragen",
+    "actionMedium": "Details prüfen",
+    "actionLow": "Überprüfen ob relevant",
+    "actionPass": "Nicht relevant"
   }
 }

@@ -731,6 +731,11 @@
     "dimCountry": "Country Match",
     "dimKeywords": "Keyword Hits",
     "dimValue": "Value Range",
-    "dimUrgency": "Urgency"
+    "dimUrgency": "Urgency",
+    "breakdown": "Score Breakdown",
+    "actionHigh": "Request this tender",
+    "actionMedium": "Review details",
+    "actionLow": "Check if relevant",
+    "actionPass": "Not relevant"
   }
 }

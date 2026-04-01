@@ -9,6 +9,35 @@ interface BidFitBadgeProps {
   showLabel?: boolean;
 }
 
+function MiniGauge({ score, recommendation, size }: { score: number; recommendation: string; size: number }) {
+  const strokeWidth = size >= 36 ? 4 : 3;
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const offset = circumference - (score / 100) * circumference;
+
+  const strokeColor =
+    recommendation === 'HIGH' ? '#10b981' :
+    recommendation === 'MEDIUM' ? '#f59e0b' :
+    recommendation === 'LOW' ? '#f97316' :
+    '#9ca3af';
+
+  return (
+    <svg width={size} height={size} className="transform -rotate-90 flex-shrink-0">
+      <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="#e5e7eb" strokeWidth={strokeWidth} />
+      <circle
+        cx={size / 2} cy={size / 2} r={radius}
+        fill="none"
+        stroke={strokeColor}
+        strokeWidth={strokeWidth}
+        strokeLinecap="round"
+        strokeDasharray={circumference}
+        strokeDashoffset={offset}
+        style={{ transition: 'stroke-dashoffset 0.8s ease-out' }}
+      />
+    </svg>
+  );
+}
+
 export default function BidFitBadge({ score, recommendation, size = 'md', showLabel = true }: BidFitBadgeProps) {
   const { t } = useLanguage();
 
@@ -20,9 +49,9 @@ export default function BidFitBadge({ score, recommendation, size = 'md', showLa
   };
 
   const sizeMap = {
-    sm: { container: 'px-1.5 py-0.5', text: 'text-[10px]', bar: 'h-1', barWidth: 'w-10' },
-    md: { container: 'px-2.5 py-1', text: 'text-xs', bar: 'h-1.5', barWidth: 'w-14' },
-    lg: { container: 'px-3 py-1.5', text: 'text-sm', bar: 'h-2', barWidth: 'w-20' },
+    sm: { container: 'px-2 py-1.5', text: 'text-[11px]', gauge: 28, scoreClass: 'text-xs' },
+    md: { container: 'px-3 py-2', text: 'text-xs', gauge: 36, scoreClass: 'text-sm' },
+    lg: { container: 'px-4 py-2.5', text: 'text-sm', gauge: 44, scoreClass: 'text-base' },
   };
 
   const colors = colorMap[recommendation] || colorMap.PASS;
@@ -36,25 +65,16 @@ export default function BidFitBadge({ score, recommendation, size = 'md', showLa
   };
 
   return (
-    <div className={`inline-flex items-center gap-2 rounded-lg ring-1 ${colors.ring} ${colors.bg} ${sz.container}`}>
-      <span className={`font-bold ${colors.text} ${sz.text}`}>{score}%</span>
+    <div className={`inline-flex items-center gap-2 rounded-xl ring-1 ${colors.ring} ${colors.bg} ${sz.container}`}>
+      <div className="relative flex items-center justify-center">
+        <MiniGauge score={score} recommendation={recommendation} size={sz.gauge} />
+        <span className={`absolute font-bold ${colors.text} ${sz.scoreClass}`}>{score}</span>
+      </div>
       {showLabel && (
-        <span className={`${sz.text} ${colors.text} font-medium`}>
+        <span className={`${sz.text} ${colors.text} font-semibold`}>
           {labelMap[recommendation]}
         </span>
       )}
-      {/* Mini progress bar */}
-      <div className={`${sz.bar} ${sz.barWidth} bg-gray-200 rounded-full overflow-hidden`}>
-        <div
-          className={`${sz.bar} rounded-full transition-all duration-500 ${
-            recommendation === 'HIGH' ? 'bg-emerald-500' :
-            recommendation === 'MEDIUM' ? 'bg-amber-500' :
-            recommendation === 'LOW' ? 'bg-orange-500' :
-            'bg-gray-400'
-          }`}
-          style={{ width: `${score}%` }}
-        />
-      </div>
     </div>
   );
 }
