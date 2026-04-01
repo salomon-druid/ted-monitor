@@ -50,8 +50,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
           return key;
         }
       }
-      if (typeof value === 'string') return value;
-      return key;
+      return value;
     },
     [locale]
   );
