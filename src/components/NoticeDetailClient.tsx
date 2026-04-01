@@ -136,7 +136,7 @@ export default function NoticeDetailClient({ notice }: NoticeDetailClientProps) 
                     onClick={() => setShowProfileModal(true)}
                     className="text-xs text-gray-500 hover:text-primary transition-colors underline"
                   >
-                    {t('bidfit.editProfile') || 'Profil bearbeiten'}
+                    {t('bidfit.editProfile')}
                   </button>
                 )}
               </div>
@@ -152,20 +152,20 @@ export default function NoticeDetailClient({ notice }: NoticeDetailClientProps) 
             ) : (
               <div className="mt-8">
                 <h3 className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-3">
-                  {t('bidfit.scoreTitle') || 'Bid-Fit Score'}
+                  {t('bidfit.scoreTitle')}
                 </h3>
                 <div className="bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm text-gray-600">
-                        {t('bidfit.setupHint') || 'Richten Sie Ihr Unternehmensprofil ein, um Bid-Fit-Scores für jede Ausschreibung zu sehen.'}
+                        {t('bidfit.setupHint')}
                       </p>
                     </div>
                     <button
                       onClick={() => setShowProfileModal(true)}
                       className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors whitespace-nowrap"
                     >
-                      {t('bidfit.setupProfile') || 'Profil einrichten'}
+                      {t('bidfit.setupProfile')}
                     </button>
                   </div>
                 </div>

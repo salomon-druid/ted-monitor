@@ -12,25 +12,25 @@ interface AlertPrefs {
 }
 
 const CPV_OPTIONS = [
-  { code: '45', label: 'Bau & Construction' },
-  { code: '72', label: 'IT & Software' },
-  { code: '50', label: 'Facility Management' },
-  { code: '73', label: 'Beratung & Consulting' },
-  { code: '33', label: 'Medizintechnik' },
-  { code: '09', label: 'Energie' },
-  { code: '60', label: 'Transport' },
-  { code: '35', label: 'Sicherheit' },
+  { code: '45', key: 'profileSetup.cpv_bau' },
+  { code: '72', key: 'profileSetup.cpv_it' },
+  { code: '50', key: 'profileSetup.cpv_facility' },
+  { code: '73', key: 'profileSetup.cpv_beratung' },
+  { code: '33', key: 'profileSetup.cpv_medical' },
+  { code: '09', key: 'profileSetup.cpv_energy' },
+  { code: '60', key: 'profileSetup.cpv_transport' },
+  { code: '35', key: 'profileSetup.cpv_security' },
 ];
 
 const COUNTRY_OPTIONS = [
-  { code: 'DE', label: 'Deutschland' },
-  { code: 'FR', label: 'Frankreich' },
-  { code: 'NL', label: 'Niederlande' },
-  { code: 'AT', label: 'Österreich' },
-  { code: 'BE', label: 'Belgien' },
-  { code: 'IT', label: 'Italien' },
-  { code: 'ES', label: 'Spanien' },
-  { code: 'PL', label: 'Polen' },
+  { code: 'DE', key: 'profileSetup.country_de' },
+  { code: 'FR', key: 'profileSetup.country_fr' },
+  { code: 'NL', key: 'profileSetup.country_nl' },
+  { code: 'AT', key: 'profileSetup.country_at' },
+  { code: 'BE', key: 'profileSetup.country_be' },
+  { code: 'IT', key: 'profileSetup.country_it' },
+  { code: 'ES', key: 'profileSetup.country_es' },
+  { code: 'PL', key: 'profileSetup.country_pl' },
 ];
 
 export default function AlertPreferences() {
@@ -204,7 +204,7 @@ export default function AlertPreferences() {
                       : 'bg-gray-50 text-gray-600 border-gray-200 hover:border-gray-300'
                   }`}
                 >
-                  {cpv.label}
+                  {t(cpv.key)}
                 </button>
               ))}
             </div>
@@ -227,7 +227,7 @@ export default function AlertPreferences() {
                       : 'bg-gray-50 text-gray-600 border-gray-200 hover:border-gray-300'
                   }`}
                 >
-                  {country.label}
+                  {t(country.key)}
                 </button>
               ))}
             </div>

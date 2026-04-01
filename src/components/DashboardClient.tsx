@@ -103,14 +103,14 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
           <div className="mb-6 p-4 bg-gradient-to-r from-primary/5 to-gold/5 border border-primary/20 rounded-xl">
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-sm font-semibold text-dark">{t('bidfit.setupProfile') || 'Bid-Fit Profil einrichten'}</h3>
-                <p className="text-xs text-gray-600 mt-1">{t('bidfit.setupHint') || 'Richten Sie Ihr Unternehmensprofil ein, um Bid-Fit-Scores zu sehen.'}</p>
+                <h3 className="text-sm font-semibold text-dark">{t('bidfit.setupProfile')}</h3>
+                <p className="text-xs text-gray-600 mt-1">{t('bidfit.setupHint')}</p>
               </div>
               <button
                 onClick={() => setShowProfileModal(true)}
                 className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
               >
-                {t('bidfit.setupProfile') || 'Profil einrichten'}
+                {t('bidfit.setupProfile')}
               </button>
             </div>
           </div>

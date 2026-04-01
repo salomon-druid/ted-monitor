@@ -51,17 +51,17 @@ export default function BidFitScoreBreakdown({ score, recommendation, breakdown 
   };
 
   const dimLabels: Record<string, string> = {
-    cpv: t('bidfit.dimCpv') || 'CPV-Übereinstimmung',
-    country: t('bidfit.dimCountry') || 'Länder-Match',
-    keywords: t('bidfit.dimKeywords') || 'Schlüsselwort-Treffer',
-    value: t('bidfit.dimValue') || 'Wert-Bereich',
-    urgency: t('bidfit.dimUrgency') || 'Dringlichkeit',
+    cpv: t('bidfit.dimCpv'),
+    country: t('bidfit.dimCountry'),
+    keywords: t('bidfit.dimKeywords'),
+    value: t('bidfit.dimValue'),
+    urgency: t('bidfit.dimUrgency'),
   };
 
   return (
     <div className="mt-8">
       <h3 className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-3">
-        {t('bidfit.scoreTitle') || 'Bid-Fit Score'}
+        {t('bidfit.scoreTitle')}
       </h3>
 
       {/* Main score display */}
@@ -72,16 +72,16 @@ export default function BidFitScoreBreakdown({ score, recommendation, breakdown 
           </div>
           <div>
             <div className={`text-sm font-bold ${colorClass(recommendation)}`}>
-              {recommendation === 'HIGH' && (t('bidfit.highMatch') || 'Hohe Übereinstimmung')}
-              {recommendation === 'MEDIUM' && (t('bidfit.mediumMatch') || 'Mittlere Übereinstimmung')}
-              {recommendation === 'LOW' && (t('bidfit.lowMatch') || 'Geringe Übereinstimmung')}
-              {recommendation === 'PASS' && (t('bidfit.noMatch') || 'Keine Übereinstimmung')}
+              {recommendation === 'HIGH' && t('bidfit.highMatch')}
+              {recommendation === 'MEDIUM' && t('bidfit.mediumMatch')}
+              {recommendation === 'LOW' && t('bidfit.lowMatch')}
+              {recommendation === 'PASS' && t('bidfit.noMatch')}
             </div>
             <div className="text-xs text-gray-500 mt-0.5">
-              {recommendation === 'HIGH' && (t('bidfit.highHint') || 'Diese Ausschreibung passt sehr gut zu Ihrem Profil')}
-              {recommendation === 'MEDIUM' && (t('bidfit.mediumHint') || 'Diese Ausschreibung könnte für Sie interessant sein')}
-              {recommendation === 'LOW' && (t('bidfit.lowHint') || 'Teilweise relevant — Überprüfung empfohlen')}
-              {recommendation === 'PASS' && (t('bidfit.passHint') || 'Wenig relevant für Ihr aktuelles Profil')}
+              {recommendation === 'HIGH' && t('bidfit.highHint')}
+              {recommendation === 'MEDIUM' && t('bidfit.mediumHint')}
+              {recommendation === 'LOW' && t('bidfit.lowHint')}
+              {recommendation === 'PASS' && t('bidfit.passHint')}
             </div>
           </div>
         </div>

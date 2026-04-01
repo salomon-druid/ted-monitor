@@ -29,10 +29,10 @@ export default function BidFitBadge({ score, recommendation, size = 'md', showLa
   const sz = sizeMap[size];
 
   const labelMap: Record<string, string> = {
-    HIGH: t('bidfit.high') || 'Hohe Übereinstimmung',
-    MEDIUM: t('bidfit.medium') || 'Mittlere Übereinstimmung',
-    LOW: t('bidfit.low') || 'Geringe Übereinstimmung',
-    PASS: t('bidfit.pass') || 'Keine Übereinstimmung',
+    HIGH: t('bidfit.high'),
+    MEDIUM: t('bidfit.medium'),
+    LOW: t('bidfit.low'),
+    PASS: t('bidfit.pass'),
   };
 
   return (

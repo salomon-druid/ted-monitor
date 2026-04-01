@@ -3,12 +3,8 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { useLanguage } from '@/context/LanguageContext';
 import { useCompanyProfile } from '@/context/CompanyProfileContext';
-
-const navItems = [
-  { href: '/dashboard', label: 'Dashboard', icon: DashboardIcon },
-  { href: '/notices', label: 'Notices', icon: NoticesIcon },
-];
 
 interface SidebarProps {
   userEmail?: string | null;
@@ -19,6 +15,12 @@ export default function Sidebar({ userEmail }: SidebarProps) {
   const router = useRouter();
   const [signingOut, setSigningOut] = useState(false);
   const { isConfigured } = useCompanyProfile();
+  const { t } = useLanguage();
+
+  const navItems = [
+    { href: '/dashboard', label: t('sidebar.dashboard'), icon: DashboardIcon },
+    { href: '/notices', label: t('sidebar.notices'), icon: NoticesIcon },
+  ];
 
   async function handleSignOut() {
     setSigningOut(true);
@@ -46,7 +48,7 @@ export default function Sidebar({ userEmail }: SidebarProps) {
             <span className="text-base font-bold tracking-tight">
               Tender<span className="text-primary">Watch</span>
             </span>
-            <p className="text-[10px] text-gray-500 leading-none mt-0.5">Procurement Intelligence</p>
+            <p className="text-[10px] text-gray-500 leading-none mt-0.5">{t('sidebar.procurementIntelligence')}</p>
           </div>
         </Link>
       </div>
@@ -87,14 +89,14 @@ export default function Sidebar({ userEmail }: SidebarProps) {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Bid-Fit aktiv
+              Bid-Fit {t('sidebar.bidFitActive').replace('Bid-Fit ', '')}
             </>
           ) : (
             <>
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
               </svg>
-              Profil einrichten
+              {t('sidebar.setupProfile')}
             </>
           )}
         </Link>
@@ -116,7 +118,7 @@ export default function Sidebar({ userEmail }: SidebarProps) {
               disabled={signingOut}
               className="text-xs text-gray-500 hover:text-gray-300 transition-colors disabled:opacity-50"
             >
-              {signingOut ? 'Signing out…' : 'Sign out'}
+              {signingOut ? t('sidebar.signingOut') : t('sidebar.signOut')}
             </button>
           </div>
         ) : (
@@ -127,19 +129,19 @@ export default function Sidebar({ userEmail }: SidebarProps) {
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
             </svg>
-            Login
+            {t('sidebar.login')}
           </Link>
         )}
 
         <div className="flex items-center gap-2 px-4 py-2">
           <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
-          <span className="text-xs text-gray-500">Live data from TED</span>
+          <span className="text-xs text-gray-500">{t('sidebar.liveData')}</span>
         </div>
         <Link
           href="/"
           className="flex items-center gap-2 px-4 py-2 text-xs text-gray-500 hover:text-gray-300 transition-colors"
         >
-          ← Back to website
+          {t('sidebar.backToWebsite')}
         </Link>
       </div>
     </aside>
