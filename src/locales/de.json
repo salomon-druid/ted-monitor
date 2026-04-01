@@ -54,8 +54,31 @@
     "exportDesc": "Exportieren Sie Ausschreibungsdaten als CSV, PDF oder Excel. Erstellen Sie Wochenberichte für die Geschäftsführung oder Ihr Bieter-Team."
   },
   "socialProof": {
-    "title": "Vertraut von 50+ KMUs in ganz Europa",
-    "subtitle": "Von IT-Beratungen in Berlin bis Bauunternehmen in Lyon — Unternehmen nutzen TenderWatch, um öffentliche Aufträge zu gewinnen, die sie sonst verpasst hätten."
+    "title": "Das sagen unsere Kunden",
+    "subtitle": "Über 50 KMUs in ganz Europa vertrauen bereits auf TenderWatch, um öffentliche Aufträge zu gewinnen.",
+    "testimonials": [
+      {
+        "quote": "Seit wir TenderWatch nutzen, haben wir drei passende öffentliche Aufträge gewonnen. Vorher haben wir stundenlang TED durchsucht — jetzt kommt alles automatisch.",
+        "name": "Markus Hoffmann",
+        "role": "Geschäftsführer",
+        "company": "Hoffmann Bau GmbH",
+        "location": "München"
+      },
+      {
+        "quote": "Der Bid-Fit-Score ist ein Gamechanger. Wir investieren nur noch in Ausschreibungen, bei denen unsere Chancen wirklich gut sind. Das spart uns Wochen an vergeblicher Arbeit.",
+        "name": "Sophie Laurent",
+        "role": "Directrice Développement",
+        "company": "DataBridge Consulting",
+        "location": "Paris"
+      },
+      {
+        "quote": "Die KI-Zusammenfassungen sparen uns pro Ausschreibung zwei bis drei Stunden Recherche. Das Tool hat sich nach dem ersten gewonnenen Auftrag amortisiert.",
+        "name": "Jan de Vries",
+        "role": "Inhaber",
+        "company": "Facility Partners NL",
+        "location": "Amsterdam"
+      }
+    ]
   },
   "pricing": {
     "title": "Einfache, transparente ",
@@ -66,13 +89,40 @@
     "contactSales": "Vertrieb kontaktieren",
     "starter": "Starter",
     "starterDesc": "Für Freelancer & Solo-Gründer",
-    "starterFeatures": ["1 Benutzerkonto", "1 Branchenfokus", "Tägliche E-Mail-Alerts", "Basis CPV-Matching", "Deadline-Erinnerungen", "CSV-Export"],
+    "starterFeatures": [
+      "1 Benutzerkonto",
+      "1 Branchenfokus",
+      "Tägliche E-Mail-Alerts",
+      "Basis CPV-Matching",
+      "Deadline-Erinnerungen",
+      "CSV-Export"
+    ],
     "professional": "Professional",
     "professionalDesc": "Für wachsende Bieter-Teams",
-    "professionalFeatures": ["3 Benutzerkonten", "Alle Branchen", "Echtzeit-Alerts", "KI-Zusammenfassungen", "Bid-Fit-Score (0–100%)", "Deadline-Tracking", "Team-Zusammenarbeit", "PDF & Excel-Export", "Priority Support"],
+    "professionalFeatures": [
+      "3 Benutzerkonten",
+      "Alle Branchen",
+      "Echtzeit-Alerts",
+      "KI-Zusammenfassungen",
+      "Bid-Fit-Score (0–100%)",
+      "Deadline-Tracking",
+      "Team-Zusammenarbeit",
+      "PDF & Excel-Export",
+      "Priority Support"
+    ],
     "enterprise": "Enterprise",
     "enterpriseDesc": "Für große Organisationen",
-    "enterpriseFeatures": ["Unbegrenzte Nutzer", "Alle Branchen", "Alles in Professional", "REST API-Zugang", "SSO / SAML-Integration", "Individuelle CPV-Regeln", "Dedizierter Account Manager", "Individuelle Integrationen", "SLA-Garantie"]
+    "enterpriseFeatures": [
+      "Unbegrenzte Nutzer",
+      "Alle Branchen",
+      "Alles in Professional",
+      "REST API-Zugang",
+      "SSO / SAML-Integration",
+      "Individuelle CPV-Regeln",
+      "Dedizierter Account Manager",
+      "Individuelle Integrationen",
+      "SLA-Garantie"
+    ]
   },
   "faq": {
     "title": "Häufig gestellte Fragen",

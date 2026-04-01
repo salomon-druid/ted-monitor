@@ -54,8 +54,31 @@
     "exportDesc": "Exportez les données des appels d'offres en CSV, PDF ou Excel. Générez des rapports hebdomadaires pour la direction ou votre équipe d'appels d'offres."
   },
   "socialProof": {
-    "title": "Approuvé par plus de 50 PME à travers l'Europe",
-    "subtitle": "Des sociétés informatiques de Berlin aux entreprises de construction de Lyon — les entreprises utilisent TenderWatch pour remporter des marchés publics qu'elles auraient autrement manqués."
+    "title": "Ce que disent nos clients",
+    "subtitle": "Plus de 50 PME à travers l'Europe font déjà confiance à TenderWatch pour remporter des marchés publics.",
+    "testimonials": [
+      {
+        "quote": "Depuis que nous utilisons TenderWatch, nous avons remporté trois marchés publics correspondants. Avant, nous passions des heures à chercher sur TED — maintenant tout arrive automatiquement.",
+        "name": "Markus Hoffmann",
+        "role": "Directeur Général",
+        "company": "Hoffmann Bau GmbH",
+        "location": "Munich"
+      },
+      {
+        "quote": "Le score Bid-Fit change la donne. Nous ne investissons que dans les appels d'offres où nos chances sont réellement bonnes. Cela nous économise des semaines de travail inutile.",
+        "name": "Sophie Laurent",
+        "role": "Directrice du Développement",
+        "company": "DataBridge Consulting",
+        "location": "Paris"
+      },
+      {
+        "quote": "Les résumés IA nous font gagner deux à trois heures de recherche par appel d'offres. L'outil s'est rentabilisé dès le premier contrat remporté.",
+        "name": "Jan de Vries",
+        "role": "Propriétaire",
+        "company": "Facility Partners NL",
+        "location": "Amsterdam"
+      }
+    ]
   },
   "pricing": {
     "title": "Tarification simple et ",
@@ -66,13 +89,40 @@
     "contactSales": "Contacter les ventes",
     "starter": "Starter",
     "starterDesc": "Pour les freelances et fondateurs seuls",
-    "starterFeatures": ["1 compte utilisateur", "1 secteur d'activité", "Alertes email quotidiennes", "Correspondance CPV basique", "Rappels d'échéance", "Export CSV"],
+    "starterFeatures": [
+      "1 compte utilisateur",
+      "1 secteur d'activité",
+      "Alertes email quotidiennes",
+      "Correspondance CPV basique",
+      "Rappels d'échéance",
+      "Export CSV"
+    ],
     "professional": "Professionnel",
     "professionalDesc": "Pour les équipes en croissance",
-    "professionalFeatures": ["3 comptes utilisateurs", "Tous les secteurs", "Alertes en temps réel", "Résumés IA", "Score d'adéquation (0–100%)", "Suivi des délais", "Collaboration d'équipe", "Export PDF & Excel", "Support prioritaire"],
+    "professionalFeatures": [
+      "3 comptes utilisateurs",
+      "Tous les secteurs",
+      "Alertes en temps réel",
+      "Résumés IA",
+      "Score d'adéquation (0–100%)",
+      "Suivi des délais",
+      "Collaboration d'équipe",
+      "Export PDF & Excel",
+      "Support prioritaire"
+    ],
     "enterprise": "Entreprise",
     "enterpriseDesc": "Pour les grandes organisations",
-    "enterpriseFeatures": ["Utilisateurs illimités", "Tous les secteurs", "Tout le plan Professionnel", "Accès API REST", "Intégration SSO / SAML", "Règles CPV personnalisées", "Responsable de compte dédié", "Intégrations personnalisées", "Garantie SLA"]
+    "enterpriseFeatures": [
+      "Utilisateurs illimités",
+      "Tous les secteurs",
+      "Tout le plan Professionnel",
+      "Accès API REST",
+      "Intégration SSO / SAML",
+      "Règles CPV personnalisées",
+      "Responsable de compte dédié",
+      "Intégrations personnalisées",
+      "Garantie SLA"
+    ]
   },
   "faq": {
     "title": "Questions fréquentes",
