@@ -474,5 +474,27 @@
     "previous": "Previous",
     "of": "of",
     "page": "Page"
+  },
+  "alerts": {
+    "title": "Tender Alerts",
+    "subtitle": "Get notified when new matching tenders are published.",
+    "minScore": "Minimum Bid-Fit Score",
+    "cpvCategories": "Industries / CPV Categories",
+    "cpvHint": "No selection = all categories",
+    "countries": "Countries",
+    "countryHint": "No selection = all EU countries",
+    "frequency": "Notification Frequency",
+    "freq_daily": "Daily",
+    "freq_instant": "Instant",
+    "freq_weekly": "Weekly",
+    "save": "Save Settings",
+    "saving": "Saving\u2026",
+    "saved": "Settings saved.",
+    "saveError": "Error saving settings. Please try again.",
+    "sendTest": "Send Test Email",
+    "sending": "Sending\u2026",
+    "testSent": "Test email sent. Check your inbox.",
+    "testError": "Error sending test email.",
+    "disabled": "Enable alerts to get email notifications when new matching tenders are published."
   }
 }

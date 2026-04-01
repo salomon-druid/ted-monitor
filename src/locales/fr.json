@@ -474,5 +474,27 @@
     "previous": "Précédent",
     "of": "sur",
     "page": "Page"
+  },
+  "alerts": {
+    "title": "Alertes d'appels d'offres",
+    "subtitle": "Recevez des notifications lorsque de nouveaux appels d'offres correspondants sont publiés.",
+    "minScore": "Score Bid-Fit minimum",
+    "cpvCategories": "Secteurs / Catégories CPV",
+    "cpvHint": "Aucune sélection = toutes les catégories",
+    "countries": "Pays",
+    "countryHint": "Aucune sélection = tous les pays de l'UE",
+    "frequency": "Fréquence de notification",
+    "freq_daily": "Quotidien",
+    "freq_instant": "Instantané",
+    "freq_weekly": "Hebdomadaire",
+    "save": "Enregistrer les paramètres",
+    "saving": "Enregistrement\u2026",
+    "saved": "Paramètres enregistrés.",
+    "saveError": "Erreur lors de l'enregistrement. Veuillez réessayer.",
+    "sendTest": "Envoyer un e-mail de test",
+    "sending": "Envoi\u2026",
+    "testSent": "E-mail de test envoyé. Vérifiez votre boîte de réception.",
+    "testError": "Erreur lors de l'envoi de l'e-mail de test.",
+    "disabled": "Activez les alertes pour recevoir des notifications par e-mail lorsque de nouveaux appels d'offres correspondants sont publiés."
   }
 }

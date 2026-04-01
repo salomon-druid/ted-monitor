@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
+import AlertPreferences from '@/components/AlertPreferences';
 import { useLanguage } from '@/context/LanguageContext';
 import { Notice } from '@/lib/supabase';
 
@@ -214,6 +215,10 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
               ))}
             </div>
           )}
+        </div>
+        {/* Alert Preferences */}
+        <div className="mt-8">
+          <AlertPreferences />
         </div>
       </main>
     </div>

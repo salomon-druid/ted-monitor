@@ -474,5 +474,27 @@
     "previous": "Zurück",
     "of": "von",
     "page": "Seite"
+  },
+  "alerts": {
+    "title": "Ausschreibungs-Alerts",
+    "subtitle": "Erhalten Sie Benachrichtigungen, wenn neue passende Ausschreibungen erscheinen.",
+    "minScore": "Mindest-Bid-Fit-Score",
+    "cpvCategories": "Branchen / CPV-Kategorien",
+    "cpvHint": "Keine Auswahl = alle Kategorien",
+    "countries": "Länder",
+    "countryHint": "Keine Auswahl = alle EU-Länder",
+    "frequency": "Benachrichtigungsfrequenz",
+    "freq_daily": "Täglich",
+    "freq_instant": "Sofort",
+    "freq_weekly": "Wöchentlich",
+    "save": "Einstellungen speichern",
+    "saving": "Speichern…",
+    "saved": "Einstellungen gespeichert.",
+    "saveError": "Fehler beim Speichern. Bitte versuchen Sie es erneut.",
+    "sendTest": "Test-E-Mail senden",
+    "sending": "Wird gesendet…",
+    "testSent": "Test-E-Mail wurde gesendet. Prüfen Sie Ihren Posteingang.",
+    "testError": "Fehler beim Senden der Test-E-Mail.",
+    "disabled": "Aktivieren Sie Alerts, um bei neuen passenden Ausschreibungen per E-Mail benachrichtigt zu werden."
   }
 }
