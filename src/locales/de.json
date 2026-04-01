@@ -652,5 +652,28 @@
     "testSent": "Test-E-Mail wurde gesendet. Prüfen Sie Ihren Posteingang.",
     "testError": "Fehler beim Senden der Test-E-Mail.",
     "disabled": "Aktivieren Sie Alerts, um bei neuen passenden Ausschreibungen per E-Mail benachrichtigt zu werden."
+  },
+  "bidfit": {
+    "setupProfile": "Bid-Fit Profil",
+    "editProfile": "Profil bearbeiten",
+    "setupHint": "Richten Sie Ihr Unternehmensprofil ein, um Bid-Fit-Scores für jede Ausschreibung zu sehen.",
+    "scoreTitle": "Bid-Fit Score",
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Gering",
+    "pass": "Kein Match",
+    "highMatch": "Hohe Übereinstimmung",
+    "mediumMatch": "Mittlere Übereinstimmung",
+    "lowMatch": "Geringe Übereinstimmung",
+    "noMatch": "Keine Übereinstimmung",
+    "highHint": "Diese Ausschreibung passt sehr gut zu Ihrem Profil",
+    "mediumHint": "Diese Ausschreibung könnte für Sie interessant sein",
+    "lowHint": "Teilweise relevant — Überprüfung empfohlen",
+    "passHint": "Wenig relevant für Ihr aktuelles Profil",
+    "dimCpv": "CPV-Übereinstimmung",
+    "dimCountry": "Länder-Match",
+    "dimKeywords": "Schlüsselwort-Treffer",
+    "dimValue": "Wert-Bereich",
+    "dimUrgency": "Dringlichkeit"
   }
 }

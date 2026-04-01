@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
+import { CompanyProfileProvider } from '@/context/CompanyProfileContext';
 
 export const metadata: Metadata = {
   title: 'TenderWatch — EU Procurement Intelligence',
@@ -21,7 +22,9 @@ export default function RootLayout({
       </head>
       <body>
         <LanguageProvider>
-          {children}
+          <CompanyProfileProvider>
+            {children}
+          </CompanyProfileProvider>
         </LanguageProvider>
       </body>
     </html>

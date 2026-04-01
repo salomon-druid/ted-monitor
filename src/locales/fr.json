@@ -652,5 +652,28 @@
     "testSent": "E-mail de test envoyé. Vérifiez votre boîte de réception.",
     "testError": "Erreur lors de l'envoi de l'e-mail de test.",
     "disabled": "Activez les alertes pour recevoir des notifications par e-mail lorsque de nouveaux appels d'offres correspondants sont publiés."
+  },
+  "bidfit": {
+    "setupProfile": "Profil Bid-Fit",
+    "editProfile": "Modifier le profil",
+    "setupHint": "Configurez votre profil d'entreprise pour voir les scores Bid-Fit pour chaque appel d'offres.",
+    "scoreTitle": "Score Bid-Fit",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible",
+    "pass": "Aucune correspondance",
+    "highMatch": "Correspondance élevée",
+    "mediumMatch": "Correspondance moyenne",
+    "lowMatch": "Correspondance faible",
+    "noMatch": "Aucune correspondance",
+    "highHint": "Cet appel d'offres correspond très bien à votre profil",
+    "mediumHint": "Cet appel d'offres pourrait être intéressant pour votre entreprise",
+    "lowHint": "Partiellement pertinent — examen recommandé",
+    "passHint": "Peu pertinent pour votre profil actuel",
+    "dimCpv": "Correspondance CPV",
+    "dimCountry": "Correspondance pays",
+    "dimKeywords": "Mots-clés trouvés",
+    "dimValue": "Plage de valeur",
+    "dimUrgency": "Urgence"
   }
 }

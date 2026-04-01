@@ -2,9 +2,14 @@
 
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
+import BidFitBadge from '@/components/BidFitBadge';
+import ProfileSetupModal from '@/components/ProfileSetupModal';
 import AlertPreferences from '@/components/AlertPreferences';
 import { useLanguage } from '@/context/LanguageContext';
+import { useCompanyProfile } from '@/context/CompanyProfileContext';
 import { Notice } from '@/lib/supabase';
+import { computeBidFit } from '@/lib/bidfit';
+import { useState } from 'react';
 
 function formatDate(dateStr: string | null, locale: string = 'de'): string {
   if (!dateStr) return '—';
@@ -33,6 +38,8 @@ interface DashboardClientProps {
 
 export default function DashboardClient({ stats }: DashboardClientProps) {
   const { t, locale } = useLanguage();
+  const { profile, isConfigured } = useCompanyProfile();
+  const [showProfileModal, setShowProfileModal] = useState(false);
 
   const statCards = [
     {
@@ -92,20 +99,37 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
 
       <main className="flex-1 ml-64 p-8 bg-background min-h-screen">
         {/* Upgrade Banner */}
-        <div className="mb-6 p-4 bg-gradient-to-r from-primary/5 to-gold/5 border border-primary/20 rounded-xl">
-          <div className="flex items-center justify-between">
-            <div>
-              <h3 className="text-sm font-semibold text-dark">{t('dashboard.upgradeTitle')}</h3>
-              <p className="text-xs text-gray-600 mt-1">{t('dashboard.upgradeDescription')}</p>
+        {!isConfigured ? (
+          <div className="mb-6 p-4 bg-gradient-to-r from-primary/5 to-gold/5 border border-primary/20 rounded-xl">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="text-sm font-semibold text-dark">{t('bidfit.setupProfile') || 'Bid-Fit Profil einrichten'}</h3>
+                <p className="text-xs text-gray-600 mt-1">{t('bidfit.setupHint') || 'Richten Sie Ihr Unternehmensprofil ein, um Bid-Fit-Scores zu sehen.'}</p>
+              </div>
+              <button
+                onClick={() => setShowProfileModal(true)}
+                className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
+              >
+                {t('bidfit.setupProfile') || 'Profil einrichten'}
+              </button>
             </div>
-            <Link
-              href="/pricing"
-              className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
-            >
-              {t('dashboard.upgradeButton')}
-            </Link>
           </div>
-        </div>
+        ) : (
+          <div className="mb-6 p-4 bg-gradient-to-r from-primary/5 to-gold/5 border border-primary/20 rounded-xl">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="text-sm font-semibold text-dark">{t('dashboard.upgradeTitle')}</h3>
+                <p className="text-xs text-gray-600 mt-1">{t('dashboard.upgradeDescription')}</p>
+              </div>
+              <Link
+                href="/pricing"
+                className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors"
+              >
+                {t('dashboard.upgradeButton')}
+              </Link>
+            </div>
+          </div>
+        )}
 
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-dark">{t('dashboard.title')}</h1>
@@ -223,9 +247,15 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
                         {notice.buyer_name || t('dashboard.unknownBuyer')} · {notice.country || '—'} · {formatDate(notice.publication_date, locale)}
                       </p>
                     </div>
-                    <span className="text-xs font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-lg whitespace-nowrap">
-                      {formatValue(notice.estimated_value, notice.estimated_value_currency)}
-                    </span>
+                    <div className="flex flex-col items-end gap-1.5 flex-shrink-0">
+                      {isConfigured && profile && (() => {
+                        const result = computeBidFit(notice, profile);
+                        return <BidFitBadge score={result.score} recommendation={result.recommendation} size="sm" showLabel={false} />;
+                      })()}
+                      <span className="text-xs font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-lg whitespace-nowrap">
+                        {formatValue(notice.estimated_value, notice.estimated_value_currency)}
+                      </span>
+                    </div>
                   </div>
                 </a>
               ))}
@@ -237,6 +267,7 @@ export default function DashboardClient({ stats }: DashboardClientProps) {
           <AlertPreferences />
         </div>
       </main>
+      {showProfileModal && <ProfileSetupModal onClose={() => setShowProfileModal(false)} />}
     </div>
   );
 }

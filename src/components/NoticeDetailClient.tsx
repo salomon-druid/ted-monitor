@@ -1,10 +1,15 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
 import SummaryButton from '@/components/SummaryButton';
+import BidFitScoreBreakdown from '@/components/BidFitScoreBreakdown';
+import ProfileSetupModal from '@/components/ProfileSetupModal';
 import { useLanguage } from '@/context/LanguageContext';
+import { useCompanyProfile } from '@/context/CompanyProfileContext';
 import { Notice } from '@/lib/supabase';
+import { computeBidFit } from '@/lib/bidfit';
 
 function formatDate(dateStr: string | null, locale: string = 'de'): string {
   if (!dateStr) return '—';
@@ -30,7 +35,11 @@ interface NoticeDetailClientProps {
 
 export default function NoticeDetailClient({ notice }: NoticeDetailClientProps) {
   const { t, locale } = useLanguage();
+  const { profile, isConfigured } = useCompanyProfile();
+  const [showProfileModal, setShowProfileModal] = useState(false);
   const deadlineDays = daysUntil(notice.deadline);
+
+  const bidFitResult = profile ? computeBidFit(notice, profile) : null;
 
   return (
     <div className="flex min-h-screen">
@@ -122,6 +131,44 @@ export default function NoticeDetailClient({ notice }: NoticeDetailClientProps) 
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </a>
+                {isConfigured && profile && (
+                  <button
+                    onClick={() => setShowProfileModal(true)}
+                    className="text-xs text-gray-500 hover:text-primary transition-colors underline"
+                  >
+                    {t('bidfit.editProfile') || 'Profil bearbeiten'}
+                  </button>
+                )}
+              </div>
+            )}
+
+            {/* Bid-Fit Score */}
+            {bidFitResult ? (
+              <BidFitScoreBreakdown
+                score={bidFitResult.score}
+                recommendation={bidFitResult.recommendation}
+                breakdown={bidFitResult.breakdown}
+              />
+            ) : (
+              <div className="mt-8">
+                <h3 className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-3">
+                  {t('bidfit.scoreTitle') || 'Bid-Fit Score'}
+                </h3>
+                <div className="bg-gray-50 p-5 rounded-xl border border-gray-100">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-sm text-gray-600">
+                        {t('bidfit.setupHint') || 'Richten Sie Ihr Unternehmensprofil ein, um Bid-Fit-Scores für jede Ausschreibung zu sehen.'}
+                      </p>
+                    </div>
+                    <button
+                      onClick={() => setShowProfileModal(true)}
+                      className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-primary-dark transition-colors whitespace-nowrap"
+                    >
+                      {t('bidfit.setupProfile') || 'Profil einrichten'}
+                    </button>
+                  </div>
+                </div>
               </div>
             )}
 
@@ -137,6 +184,7 @@ export default function NoticeDetailClient({ notice }: NoticeDetailClientProps) 
           </div>
         </div>
       </main>
+      {showProfileModal && <ProfileSetupModal onClose={() => setShowProfileModal(false)} />}
     </div>
   );
 }

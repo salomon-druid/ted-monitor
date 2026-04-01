@@ -652,5 +652,28 @@
     "testSent": "Test email sent. Check your inbox.",
     "testError": "Error sending test email.",
     "disabled": "Enable alerts to get email notifications when new matching tenders are published."
+  },
+  "bidfit": {
+    "setupProfile": "Bid-Fit Profile",
+    "editProfile": "Edit Profile",
+    "setupHint": "Set up your company profile to see Bid-Fit scores for every tender.",
+    "scoreTitle": "Bid-Fit Score",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "pass": "No Match",
+    "highMatch": "High Match",
+    "mediumMatch": "Medium Match",
+    "lowMatch": "Low Match",
+    "noMatch": "No Match",
+    "highHint": "This tender is an excellent fit for your profile",
+    "mediumHint": "This tender could be interesting for your business",
+    "lowHint": "Partially relevant — review recommended",
+    "passHint": "Not very relevant for your current profile",
+    "dimCpv": "CPV Match",
+    "dimCountry": "Country Match",
+    "dimKeywords": "Keyword Hits",
+    "dimValue": "Value Range",
+    "dimUrgency": "Urgency"
   }
 }

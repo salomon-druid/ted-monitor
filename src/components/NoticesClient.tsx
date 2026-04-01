@@ -1,9 +1,14 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
+import BidFitBadge from '@/components/BidFitBadge';
+import ProfileSetupModal from '@/components/ProfileSetupModal';
 import { useLanguage } from '@/context/LanguageContext';
+import { useCompanyProfile } from '@/context/CompanyProfileContext';
 import { Notice } from '@/lib/supabase';
+import { computeBidFit } from '@/lib/bidfit';
 
 function formatDate(dateStr: string | null, locale: string = 'de'): string {
   if (!dateStr) return '—';
@@ -36,6 +41,9 @@ export default function NoticesClient({
   searchParams,
 }: NoticesClientProps) {
   const { t, locale } = useLanguage();
+  const { profile, isConfigured } = useCompanyProfile();
+  const [showProfileModal, setShowProfileModal] = useState(false);
+  const [sortByBidFit, setSortByBidFit] = useState(false);
 
   function buildExportUrl(format: 'csv' | 'pdf'): string {
     const params = new URLSearchParams();
@@ -45,6 +53,23 @@ export default function NoticesClient({
     if (searchParams.cpv) params.set('cpv', searchParams.cpv);
     return `/api/export/${format}?${params.toString()}`;
   }
+
+  const noticeScores = new Map<number, { score: number; recommendation: string }>();
+  if (profile) {
+    for (const n of notices) {
+      const result = computeBidFit(n, profile);
+      noticeScores.set(n.id, { score: result.score, recommendation: result.recommendation });
+    }
+  }
+
+  // Sort by Bid-Fit if enabled
+  const sortedNotices = sortByBidFit && profile
+    ? [...notices].sort((a, b) => {
+        const sa = noticeScores.get(a.id)?.score ?? 0;
+        const sb = noticeScores.get(b.id)?.score ?? 0;
+        return sb - sa;
+      })
+    : notices;
 
   return (
     <div className="flex min-h-screen">
@@ -59,6 +84,32 @@ export default function NoticesClient({
             </p>
           </div>
           <div className="flex items-center gap-2">
+            {!isConfigured && (
+              <button
+                onClick={() => setShowProfileModal(true)}
+                className="flex items-center gap-1.5 px-3 py-2 text-xs font-medium bg-primary/10 text-primary border border-primary/20 rounded-lg hover:bg-primary/20 transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
+                </svg>
+                {t('bidfit.setupProfile') || 'Bid-Fit Profil'}
+              </button>
+            )}
+            {isConfigured && (
+              <button
+                onClick={() => setSortByBidFit(!sortByBidFit)}
+                className={`flex items-center gap-1.5 px-3 py-2 text-xs font-medium rounded-lg transition-colors ${
+                  sortByBidFit
+                    ? 'bg-primary text-white'
+                    : 'bg-white border border-gray-200 text-gray-600 hover:bg-gray-50'
+                }`}
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m-9.75 4.5h9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Bid-Fit
+              </button>
+            )}
             <a
               href={buildExportUrl('csv')}
               className="flex items-center gap-1.5 px-3 py-2 text-xs font-medium bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-gray-700"
@@ -142,7 +193,7 @@ export default function NoticesClient({
             </div>
           ) : (
             <div className="divide-y divide-gray-50">
-              {notices.map((notice) => (
+              {sortedNotices.map((notice) => (
                 <Link
                   key={notice.id}
                   href={`/notices/${notice.id}`}
@@ -197,7 +248,12 @@ export default function NoticesClient({
                         )}
                       </div>
                     </div>
-                    <div className="text-right flex-shrink-0">
+                    <div className="text-right flex-shrink-0 flex flex-col items-end gap-2">
+                      {isConfigured && profile && (() => {
+                        const scoreData = noticeScores.get(notice.id);
+                        if (!scoreData) return null;
+                        return <BidFitBadge score={scoreData.score} recommendation={scoreData.recommendation} size="sm" />;
+                      })()}
                       {notice.estimated_value && (
                         <div className="text-sm font-semibold text-primary">
                           {formatValue(notice.estimated_value, notice.estimated_value_currency)}
@@ -242,6 +298,7 @@ export default function NoticesClient({
           )}
         </div>
       </main>
+      {showProfileModal && <ProfileSetupModal onClose={() => setShowProfileModal(false)} />}
     </div>
   );
 }
