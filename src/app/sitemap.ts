@@ -8,6 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'it', priority: 0.8 },
     { slug: 'facility', priority: 0.8 },
     { slug: 'beratung', priority: 0.8 },
+    { slug: 'medical', priority: 0.8 },
+    { slug: 'energy', priority: 0.8 },
+    { slug: 'security', priority: 0.8 },
   ]
 
   return [

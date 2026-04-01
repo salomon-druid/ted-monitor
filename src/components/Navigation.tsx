@@ -22,6 +22,9 @@ export default function Navigation() {
     { href: '/branche/it', label: t('branches.it') },
     { href: '/branche/facility', label: t('branches.facility') },
     { href: '/branche/beratung', label: t('branches.beratung') },
+    { href: '/branche/medical', label: t('branches.medical') },
+    { href: '/branche/energy', label: t('branches.energy') },
+    { href: '/branche/security', label: t('branches.security') },
   ];
 
   const locales: Locale[] = ['de', 'en', 'fr'];

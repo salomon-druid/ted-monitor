@@ -307,6 +307,9 @@ export default function BranchLandingPage({ slug, cpvPrefix }: BranchLandingPage
                 <li><Link href="/branche/it" className="hover:text-white transition-colors">{t('branches.it')}</Link></li>
                 <li><Link href="/branche/facility" className="hover:text-white transition-colors">{t('branches.facility')}</Link></li>
                 <li><Link href="/branche/beratung" className="hover:text-white transition-colors">{t('branches.beratung')}</Link></li>
+                <li><Link href="/branche/medical" className="hover:text-white transition-colors">{t('branches.medical')}</Link></li>
+                <li><Link href="/branche/energy" className="hover:text-white transition-colors">{t('branches.energy')}</Link></li>
+                <li><Link href="/branche/security" className="hover:text-white transition-colors">{t('branches.security')}</Link></li>
               </ul>
             </div>
 

@@ -238,7 +238,10 @@
     "bau": "Bâtiment & Construction",
     "it": "IT & Logiciel",
     "facility": "Gestion des installations",
-    "beratung": "Conseil"
+    "beratung": "Conseil",
+    "medical": "Médical & Santé",
+    "energy": "Énergie & Utilities",
+    "security": "Sécurité & Protection"
   },
   "branche": {
     "bau": {
@@ -440,6 +443,156 @@
       "footerBranches": "Secteurs",
       "footerProduct": "Produit",
       "footerLegal": "Mentions légales"
+    },
+    "medical": {
+      "heroHeadline": "Appels d'offres médicaux dans l'UE – Santé & Dispositifs médicaux",
+      "heroSubheadline": "Le secteur public de la santé attribue chaque année des milliards pour les dispositifs médicaux, les produits pharmaceutiques et les services de santé. TenderWatch fournit les appels d'offres CPV 33xxxxxx — filtrés automatiquement.",
+      "statsLabel": "Médical & Santé · CPV 33xxxxxx",
+      "industryName": "Médical",
+      "benefits": [
+        {
+          "title": "Filtres dispositifs médicaux",
+          "desc": "De l'équipement de laboratoire aux systèmes d'imagerie et instruments chirurgicaux — notre matching CPV couvre tous les domaines de la technologie médicale."
+        },
+        {
+          "title": "Suivi des accords-cadres",
+          "desc": "Les hôpitaux attribuent souvent des accords-cadres pluriannuels. Voyez quand les contrats existants expirent et planifiez votre offre à temps."
+        },
+        {
+          "title": "Comprendre les procédures",
+          "desc": "L'achat public médical suit des règles strictes. Notre IA extrait le type de procédure, les critères d'évaluation et les exigences techniques."
+        },
+        {
+          "title": "Exigences de certification",
+          "desc": "De nombreux marchés médicaux exigent des certifications spécifiques (CE, FDA). Filtrez selon les exigences que votre entreprise remplit."
+        },
+        {
+          "title": "Analyse des lots",
+          "desc": "Les marchés de santé sont souvent divisés en lots spécialisés. Identifiez les prestations partielles correspondant à votre portefeuille."
+        },
+        {
+          "title": "Délais de livraison",
+          "desc": "Les produits médicaux ont souvent des délais serrés. TenderWatch affiche toutes les échéances et rappels en un coup d'œil."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utiliser TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou démarrez votre accès d'essai",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Démarrez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Démarrer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuit · Pas de carte bancaire · Résiliable à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    },
+    "energy": {
+      "heroHeadline": "Appels d'offres énergie dans l'UE – Électricité, Gaz & Renouvelables",
+      "heroSubheadline": "La transition énergétique crée des besoins d'approvisionnement massifs. De l'éolien au solaire en passant par le réseau — TenderWatch fournit les appels d'offres CPV 09xxxxxx quotidiennement.",
+      "statsLabel": "Énergie & Utilities · CPV 09xxxxxx",
+      "industryName": "Énergie",
+      "benefits": [
+        {
+          "title": "Tous types d'énergie",
+          "desc": "Éolien, solaire, biomasse, hydrogène, gaz naturel, réseaux électriques — notre système identifie les appels d'offres dans tous les secteurs énergétiques."
+        },
+        {
+          "title": "Formats d'appel d'offres",
+          "desc": "L'achat d'énergie utilise souvent des enchères et accords-cadres. TenderWatch identifie la procédure et vous montre les conditions."
+        },
+        {
+          "title": "Filtrer par valeur",
+          "desc": "Des petites installations photovoltaïques aux parcs éoliens offshore : filtrez par valeur de projet et trouvez des contrats à votre échelle."
+        },
+        {
+          "title": "Vérifier les certifications",
+          "desc": "Les projets énergétiques exigent des certifications et autorisations spécifiques. Notre système extrait toutes les exigences automatiquement."
+        },
+        {
+          "title": "Projets par localisation",
+          "desc": "Les projets énergétiques sont liés à un site. Filtrez par pays et régions pour trouver des projets dans votre rayon d'action."
+        },
+        {
+          "title": "Synergies de financement",
+          "desc": "De nombreux projets énergétiques bénéficient de financements publics. TenderWatch montre quels appels d'offres se combinent avec des subventions."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utiliser TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou démarrez votre accès d'essai",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Démarrez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Démarrer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuit · Pas de carte bancaire · Résiliable à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
+    },
+    "security": {
+      "heroHeadline": "Appels d'offres sécurité dans l'UE – Surveillance & Protection",
+      "heroSubheadline": "Les autorités et institutions publiques investissent massivement dans l'infrastructure de sécurité. De la vidéosurveillance à la protection des personnes — TenderWatch fournit les appels d'offres CPV 35xxxxxx.",
+      "statsLabel": "Sécurité & Protection · CPV 35xxxxxx",
+      "industryName": "Sécurité",
+      "benefits": [
+        {
+          "title": "Tous secteurs de sécurité",
+          "desc": "De la surveillance électronique aux services de sécurité et équipements de protection — notre matching CPV couvre l'ensemble du secteur sécurité."
+        },
+        {
+          "title": "Niveaux de classification",
+          "desc": "Les contrats de sécurité comportent souvent des exigences de confidentialité. Notre système les signale et vous aide dans la préparation des offres."
+        },
+        {
+          "title": "Vérifier les licences",
+          "desc": "L'achat de sécurité exige des licences spécifiques. Filtrez selon les exigences que votre entreprise remplit."
+        },
+        {
+          "title": "Identifier les accords-cadres",
+          "desc": "Les services de sécurité sont souvent attribués via des accords-cadres pluriannuels. Repérez les contrats arrivant à expiration."
+        },
+        {
+          "title": "Présence régionale",
+          "desc": "Les services de sécurité exigent une présence locale. Filtrez par pays et régions pour voir uniquement les contrats de votre zone."
+        },
+        {
+          "title": "Analyse concurrentielle",
+          "desc": "Voyez combien d'entreprises de sécurité candidatent pour des contrats similaires et utilisez cette intelligence pour votre stratégie."
+        }
+      ],
+      "whyTitle": "Pourquoi <hl>{industry}</hl> utiliser TenderWatch",
+      "whySubtitle": "Adapté aux besoins du secteur {industry}.",
+      "recentTitle": "Derniers appels d'offres <hl>{industry}</hl>",
+      "recentSubtitle": "Les appels d'offres les plus récents de l'UE — mis à jour quotidiennement.",
+      "noNotices": "De nouveaux appels d'offres sont en cours de chargement",
+      "noNoticesSub": "Revenez bientôt ou démarrez votre accès d'essai",
+      "viewAll": "Voir tous les appels d'offres {industry} →",
+      "ctaTitle": "Ne manquez plus aucun appel d'offres {industry}",
+      "ctaSubtitle": "Démarrez votre essai gratuit de 14 jours et découvrez les appels d'offres pertinents pour votre entreprise.",
+      "ctaButton": "Démarrer gratuitement",
+      "ctaPricing": "Voir les tarifs →",
+      "trialBtn": "Essai gratuit 14 jours",
+      "viewNotices": "Voir tous les appels d'offres",
+      "trialNote": "14 jours gratuit · Pas de carte bancaire · Résiliable à tout moment",
+      "deadlineLabel": "Échéance :",
+      "footerBranches": "Secteurs",
+      "footerProduct": "Produit",
+      "footerLegal": "Mentions légales"
     }
   },
   "auth": {
@@ -488,11 +641,11 @@
     "freq_instant": "Instantané",
     "freq_weekly": "Hebdomadaire",
     "save": "Enregistrer les paramètres",
-    "saving": "Enregistrement\u2026",
+    "saving": "Enregistrement…",
     "saved": "Paramètres enregistrés.",
     "saveError": "Erreur lors de l'enregistrement. Veuillez réessayer.",
     "sendTest": "Envoyer un e-mail de test",
-    "sending": "Envoi\u2026",
+    "sending": "Envoi…",
     "testSent": "E-mail de test envoyé. Vérifiez votre boîte de réception.",
     "testError": "Erreur lors de l'envoi de l'e-mail de test.",
     "disabled": "Activez les alertes pour recevoir des notifications par e-mail lorsque de nouveaux appels d'offres correspondants sont publiés."

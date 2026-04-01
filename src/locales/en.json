@@ -8,14 +8,14 @@
     "startTrial": "Start Free Trial"
   },
   "hero": {
-    "badge": "Live TED Data \u2014 Updated Daily",
+    "badge": "Live TED Data — Updated Daily",
     "headline": "Find EU Tenders That Match ",
     "headlineHighlight": "Your Business",
-    "headlineEnd": " \u2014 Automatically",
+    "headlineEnd": " — Automatically",
     "subtitle": "Stop wasting hours scrolling through TED. TenderWatch monitors every EU procurement notice, matches them to your CPV codes, and delivers high-fit opportunities straight to your inbox.",
     "searchPlaceholder": "Try \"IT services\", \"construction\", \"medical equipment\"...",
     "cta": "Start Free Trial",
-    "trialNote": "14 days free \u00b7 No credit card required \u00b7 Cancel anytime"
+    "trialNote": "14 days free · No credit card required · Cancel anytime"
   },
   "trustBar": {
     "activeTenders": "Active Tenders",
@@ -27,7 +27,7 @@
   "howItWorks": {
     "title": "Win More Public Contracts in ",
     "titleHighlight": "3 Steps",
-    "subtitle": "From setup to your first matched tender \u2014 it takes less than 5 minutes.",
+    "subtitle": "From setup to your first matched tender — it takes less than 5 minutes.",
     "step1Title": "Set Your Profile",
     "step1Desc": "Tell us your industry, CPV codes, and regions. We build your tender DNA so you only see relevant opportunities.",
     "step2Title": "Get Matched",
@@ -43,7 +43,7 @@
     "cpvAlertsTitle": "CPV-Matched Alerts",
     "cpvAlertsDesc": "Set your CPV codes once. Every new TED notice that matches your business profile triggers an instant alert.",
     "bidFitTitle": "Bid-Fit Scoring",
-    "bidFitDesc": "Every tender gets a 0\u2013100% match score. Focus your time on the opportunities you are most likely to win.",
+    "bidFitDesc": "Every tender gets a 0–100% match score. Focus your time on the opportunities you are most likely to win.",
     "aiSummariesTitle": "AI Summaries",
     "aiSummariesDesc": "Long procurement docs? Our AI extracts the key requirements, timeline, and evaluation criteria in seconds.",
     "deadlineTitle": "Deadline Tracking",
@@ -58,7 +58,7 @@
     "subtitle": "Over 50 SMBs across Europe already trust TenderWatch to win public contracts.",
     "testimonials": [
       {
-        "quote": "Since using TenderWatch, we have won three matching public contracts. Before, we spent hours searching TED \u2014 now everything comes automatically.",
+        "quote": "Since using TenderWatch, we have won three matching public contracts. Before, we spent hours searching TED — now everything comes automatically.",
         "name": "Markus Hoffmann",
         "role": "Managing Director",
         "company": "Hoffmann Bau GmbH",
@@ -104,7 +104,7 @@
       "All industries",
       "Real-time alerts",
       "AI-powered summaries",
-      "Bid-fit scoring (0\u2013100%)",
+      "Bid-fit scoring (0–100%)",
       "Deadline tracking",
       "Team collaboration",
       "PDF & Excel export",
@@ -134,11 +134,11 @@
       },
       {
         "q": "How does the CPV matching work?",
-        "a": "CPV (Common Procurement Vocabulary) codes classify what a tender is about. You tell us which codes match your business \u2014 for example, 72000000 for IT services. Our system scans every new TED notice and filters by your codes, so you only see relevant opportunities."
+        "a": "CPV (Common Procurement Vocabulary) codes classify what a tender is about. You tell us which codes match your business — for example, 72000000 for IT services. Our system scans every new TED notice and filters by your codes, so you only see relevant opportunities."
       },
       {
         "q": "What does \"bid-fit scoring\" mean?",
-        "a": "Our algorithm analyzes each tender against your profile \u2014 considering factors like contract value, location, required qualifications, and competition level \u2014 and assigns a 0\u2013100% score indicating how likely you are to win. This helps you focus on the best opportunities."
+        "a": "Our algorithm analyzes each tender against your profile — considering factors like contract value, location, required qualifications, and competition level — and assigns a 0–100% score indicating how likely you are to win. This helps you focus on the best opportunities."
       },
       {
         "q": "Can I try TenderWatch before paying?",
@@ -146,7 +146,7 @@
       },
       {
         "q": "How is this different from just checking TED directly?",
-        "a": "TED publishes thousands of notices daily across all EU languages. Manually filtering them is a full-time job. TenderWatch automates the entire process \u2014 matching, scoring, summarizing, and alerting \u2014 so your team can focus on writing winning proposals instead of searching."
+        "a": "TED publishes thousands of notices daily across all EU languages. Manually filtering them is a full-time job. TenderWatch automates the entire process — matching, scoring, summarizing, and alerting — so your team can focus on writing winning proposals instead of searching."
       },
       {
         "q": "Can I cancel or change my plan anytime?",
@@ -158,7 +158,7 @@
     "title": "Stop Missing EU Tenders",
     "subtitle": "Join 50+ businesses that already use TenderWatch to find, track, and win public contracts across Europe.",
     "button": "Start Your Free Trial",
-    "viewPricing": "View pricing \u2192"
+    "viewPricing": "View pricing →"
   },
   "footer": {
     "tagline": "EU procurement intelligence platform. Find, match, and win public contracts automatically.",
@@ -198,7 +198,7 @@
     "topCategories": "Top Categories (CPV)",
     "noData": "No data yet",
     "recentNotices": "Recent Notices",
-    "viewAll": "View all \u2192",
+    "viewAll": "View all →",
     "noNotices": "No notices found yet. The collector will populate data shortly.",
     "untitled": "Untitled Notice",
     "unknownBuyer": "Unknown buyer"
@@ -219,8 +219,8 @@
     "untitled": "Untitled Notice",
     "deadline": "Deadline",
     "pageOf": "Page {page} of {total}",
-    "previous": "\u2190 Previous",
-    "next": "Next \u2192",
+    "previous": "← Previous",
+    "next": "Next →",
     "buyer": "Buyer",
     "cpvCode": "CPV Code",
     "publicationDate": "Publication Date",
@@ -238,22 +238,25 @@
     "bau": "Construction",
     "it": "IT & Software",
     "facility": "Facility Management",
-    "beratung": "Consulting"
+    "beratung": "Consulting",
+    "medical": "Medical & Healthcare",
+    "energy": "Energy & Utilities",
+    "security": "Security & Protection"
   },
   "branche": {
     "bau": {
-      "heroHeadline": "EU Construction Tenders \u2014 New Opportunities Daily",
-      "heroSubheadline": "Never miss a construction contract again. TenderWatch scans all EU procurement platforms daily and delivers matching construction tenders \u2014 automatically filtered by CPV 45xxxxxx.",
-      "statsLabel": "Construction \u00b7 CPV 45xxxxxx",
+      "heroHeadline": "EU Construction Tenders — New Opportunities Daily",
+      "heroSubheadline": "Never miss a construction contract again. TenderWatch scans all EU procurement platforms daily and delivers matching construction tenders — automatically filtered by CPV 45xxxxxx.",
+      "statsLabel": "Construction · CPV 45xxxxxx",
       "industryName": "Construction",
       "benefits": [
         {
           "title": "Specialized Construction Filters",
-          "desc": "Our CPV matching identifies all relevant construction tenders \u2014 from building to civil engineering to renovation. You only see what fits your business."
+          "desc": "Our CPV matching identifies all relevant construction tenders — from building to civil engineering to renovation. You only see what fits your business."
         },
         {
           "title": "Deadline Tracking",
-          "desc": "Construction projects have tight submission deadlines. TenderWatch automatically notifies you 7, 3, and 1 day before expiry \u2014 so you never miss a deadline."
+          "desc": "Construction projects have tight submission deadlines. TenderWatch automatically notifies you 7, 3, and 1 day before expiry — so you never miss a deadline."
         },
         {
           "title": "Competition Analysis",
@@ -261,7 +264,7 @@
         },
         {
           "title": "Project Value Filters",
-          "desc": "Filter by contract volume \u2014 whether small renovation projects under \u20ac100k or major projects over \u20ac10M. Tailor your search to your company profile."
+          "desc": "Filter by contract volume — whether small renovation projects under €100k or major projects over €10M. Tailor your search to your company profile."
         },
         {
           "title": "Regional Coverage",
@@ -269,32 +272,32 @@
         },
         {
           "title": "AI Summaries",
-          "desc": "Long procurement documents? Our AI extracts the key requirements, timelines, and evaluation criteria \u2014 saving you hours on each tender."
+          "desc": "Long procurement documents? Our AI extracts the key requirements, timelines, and evaluation criteria — saving you hours on each tender."
         }
       ],
       "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
       "whySubtitle": "Tailored for the needs of the {industry} industry.",
       "recentTitle": "Latest <hl>{industry}</hl> Tenders",
-      "recentSubtitle": "The newest tenders from the EU \u2014 updated daily.",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
       "noNotices": "New tenders are being loaded",
       "noNoticesSub": "Check back soon or start your free trial",
-      "viewAll": "View all {industry} tenders \u2192",
+      "viewAll": "View all {industry} tenders →",
       "ctaTitle": "Never Miss a {industry} Tender Again",
       "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
       "ctaButton": "Start for Free",
-      "ctaPricing": "View pricing \u2192",
+      "ctaPricing": "View pricing →",
       "trialBtn": "Try free for 14 days",
       "viewNotices": "View all tenders",
-      "trialNote": "14 days free \u00b7 No credit card required \u00b7 Cancel anytime",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
       "deadlineLabel": "Deadline:",
       "footerBranches": "Industries",
       "footerProduct": "Product",
       "footerLegal": "Legal"
     },
     "it": {
-      "heroHeadline": "EU IT Tenders \u2014 Software, Cloud & Services",
-      "heroSubheadline": "Discover lucrative public sector IT contracts. From software development to cloud migration to cybersecurity \u2014 TenderWatch delivers matching tenders daily by CPV 72xxxxxx.",
-      "statsLabel": "IT & Software \u00b7 CPV 72xxxxxx",
+      "heroHeadline": "EU IT Tenders — Software, Cloud & Services",
+      "heroSubheadline": "Discover lucrative public sector IT contracts. From software development to cloud migration to cybersecurity — TenderWatch delivers matching tenders daily by CPV 72xxxxxx.",
+      "statsLabel": "IT & Software · CPV 72xxxxxx",
       "industryName": "IT",
       "benefits": [
         {
@@ -307,7 +310,7 @@
         },
         {
           "title": "Technology Filters",
-          "desc": "Search for specific technologies \u2014 SAP, Microsoft, AWS, Azure, Open Source. Our AI system also scans the description texts for you."
+          "desc": "Search for specific technologies — SAP, Microsoft, AWS, Azure, Open Source. Our AI system also scans the description texts for you."
         },
         {
           "title": "Smart Notifications",
@@ -319,41 +322,41 @@
         },
         {
           "title": "Bid-Fit Scoring",
-          "desc": "Every tender gets a 0\u2013100% match score. Focus on the contracts that best fit your IT company."
+          "desc": "Every tender gets a 0–100% match score. Focus on the contracts that best fit your IT company."
         }
       ],
       "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
       "whySubtitle": "Tailored for the needs of the {industry} industry.",
       "recentTitle": "Latest <hl>{industry}</hl> Tenders",
-      "recentSubtitle": "The newest tenders from the EU \u2014 updated daily.",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
       "noNotices": "New tenders are being loaded",
       "noNoticesSub": "Check back soon or start your free trial",
-      "viewAll": "View all {industry} tenders \u2192",
+      "viewAll": "View all {industry} tenders →",
       "ctaTitle": "Never Miss a {industry} Tender Again",
       "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
       "ctaButton": "Start for Free",
-      "ctaPricing": "View pricing \u2192",
+      "ctaPricing": "View pricing →",
       "trialBtn": "Try free for 14 days",
       "viewNotices": "View all tenders",
-      "trialNote": "14 days free \u00b7 No credit card required \u00b7 Cancel anytime",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
       "deadlineLabel": "Deadline:",
       "footerBranches": "Industries",
       "footerProduct": "Product",
       "footerLegal": "Legal"
     },
     "facility": {
-      "heroHeadline": "Facility Management Tenders \u2014 Cleaning, Technical Services & More",
-      "heroSubheadline": "The public sector is one of the largest clients for facility management. Discover daily tenders for building cleaning, technical services, security services and more \u2014 filtered by CPV 50xxxxxx.",
-      "statsLabel": "Facility Management \u00b7 CPV 50xxxxxx",
+      "heroHeadline": "Facility Management Tenders — Cleaning, Technical Services & More",
+      "heroSubheadline": "The public sector is one of the largest clients for facility management. Discover daily tenders for building cleaning, technical services, security services and more — filtered by CPV 50xxxxxx.",
+      "statsLabel": "Facility Management · CPV 50xxxxxx",
       "industryName": "Facility Management",
       "benefits": [
         {
           "title": "All FM Segments Covered",
-          "desc": "From building cleaning to technical services to security \u2014 our CPV matching covers all areas of facility management."
+          "desc": "From building cleaning to technical services to security — our CPV matching covers all areas of facility management."
         },
         {
           "title": "Detect Ongoing Contracts",
-          "desc": "Many FM tenders are follow-up contracts. TenderWatch shows you when existing contracts expire \u2014 for perfect timing of your bid."
+          "desc": "Many FM tenders are follow-up contracts. TenderWatch shows you when existing contracts expire — for perfect timing of your bid."
         },
         {
           "title": "Regional Focus",
@@ -365,7 +368,7 @@
         },
         {
           "title": "Automatic Deadline Alerts",
-          "desc": "FM tenders often have short submission deadlines. With TenderWatch you never miss a deadline \u2014 with reminders 7, 3, and 1 day before expiry."
+          "desc": "FM tenders often have short submission deadlines. With TenderWatch you never miss a deadline — with reminders 7, 3, and 1 day before expiry."
         },
         {
           "title": "Export & Reporting",
@@ -375,26 +378,26 @@
       "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
       "whySubtitle": "Tailored for the needs of the {industry} industry.",
       "recentTitle": "Latest <hl>{industry}</hl> Tenders",
-      "recentSubtitle": "The newest tenders from the EU \u2014 updated daily.",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
       "noNotices": "New tenders are being loaded",
       "noNoticesSub": "Check back soon or start your free trial",
-      "viewAll": "View all {industry} tenders \u2192",
+      "viewAll": "View all {industry} tenders →",
       "ctaTitle": "Never Miss a {industry} Tender Again",
       "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
       "ctaButton": "Start for Free",
-      "ctaPricing": "View pricing \u2192",
+      "ctaPricing": "View pricing →",
       "trialBtn": "Try free for 14 days",
       "viewNotices": "View all tenders",
-      "trialNote": "14 days free \u00b7 No credit card required \u00b7 Cancel anytime",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
       "deadlineLabel": "Deadline:",
       "footerBranches": "Industries",
       "footerProduct": "Product",
       "footerLegal": "Legal"
     },
     "beratung": {
-      "heroHeadline": "Consulting Tenders \u2014 Public Sector Contracts",
-      "heroSubheadline": "The public sector awards billions in consulting contracts annually. From strategic consulting to market research to project management \u2014 TenderWatch delivers matching tenders daily by CPV 73xxxxxx.",
-      "statsLabel": "Consulting \u00b7 CPV 73xxxxxx",
+      "heroHeadline": "Consulting Tenders — Public Sector Contracts",
+      "heroSubheadline": "The public sector awards billions in consulting contracts annually. From strategic consulting to market research to project management — TenderWatch delivers matching tenders daily by CPV 73xxxxxx.",
+      "statsLabel": "Consulting · CPV 73xxxxxx",
       "industryName": "Consulting",
       "benefits": [
         {
@@ -407,7 +410,7 @@
         },
         {
           "title": "Understand Evaluation Criteria",
-          "desc": "Our AI extracts the evaluation criteria from procurement documents \u2014 price, quality, experience, methodology \u2014 so you can optimize your proposal."
+          "desc": "Our AI extracts the evaluation criteria from procurement documents — price, quality, experience, methodology — so you can optimize your proposal."
         },
         {
           "title": "Reference Requirement Filters",
@@ -425,17 +428,167 @@
       "whyTitle": "Why <hl>{industry}</hl> Uses TenderWatch",
       "whySubtitle": "Tailored for the needs of the {industry} industry.",
       "recentTitle": "Latest <hl>{industry}</hl> Tenders",
-      "recentSubtitle": "The newest tenders from the EU \u2014 updated daily.",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
       "noNotices": "New tenders are being loaded",
       "noNoticesSub": "Check back soon or start your free trial",
-      "viewAll": "View all {industry} tenders \u2192",
+      "viewAll": "View all {industry} tenders →",
       "ctaTitle": "Never Miss a {industry} Tender Again",
       "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
       "ctaButton": "Start for Free",
-      "ctaPricing": "View pricing \u2192",
+      "ctaPricing": "View pricing →",
       "trialBtn": "Try free for 14 days",
       "viewNotices": "View all tenders",
-      "trialNote": "14 days free \u00b7 No credit card required \u00b7 Cancel anytime",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "medical": {
+      "heroHeadline": "Medical Tenders in the EU – Healthcare & Life Sciences",
+      "heroSubheadline": "The public health sector awards billions annually for medical devices, pharmaceuticals and healthcare services. TenderWatch delivers relevant tenders from CPV 33xxxxxx daily — automatically filtered.",
+      "statsLabel": "Medical & Healthcare · CPV 33xxxxxx",
+      "industryName": "Medical",
+      "benefits": [
+        {
+          "title": "Medical Device Filters",
+          "desc": "From laboratory equipment to imaging systems and surgical instruments — our CPV matching covers all areas of medical technology."
+        },
+        {
+          "title": "Track Framework Agreements",
+          "desc": "Hospitals and clinics often award multi-year framework agreements. See when existing contracts expire and plan your bid in time."
+        },
+        {
+          "title": "Understand Procedures",
+          "desc": "Public medical procurement follows strict rules. Our AI extracts procedure type, evaluation criteria and technical requirements for you."
+        },
+        {
+          "title": "Certification Requirements",
+          "desc": "Many medical tenders require specific certifications (CE, FDA). Filter by requirements your company meets."
+        },
+        {
+          "title": "Lot Structure Analysis",
+          "desc": "Healthcare tenders are often divided into specialist lots. Identify the partial services that match your portfolio."
+        },
+        {
+          "title": "Delivery Deadlines",
+          "desc": "Medical products often have tight delivery schedules. TenderWatch shows all deadlines and reminders at a glance."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Use TenderWatch",
+      "whySubtitle": "Tailored to the needs of the {industry} sector.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your trial access",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never miss a {industry} tender again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "14-day free trial",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "energy": {
+      "heroHeadline": "Energy Tenders in the EU – Power, Gas & Renewables",
+      "heroSubheadline": "The energy transition is creating massive procurement needs. From wind power to solar and grid expansion — TenderWatch delivers relevant tenders from CPV 09xxxxxx daily.",
+      "statsLabel": "Energy & Utilities · CPV 09xxxxxx",
+      "industryName": "Energy",
+      "benefits": [
+        {
+          "title": "All Energy Types Covered",
+          "desc": "Wind, solar, biomass, hydrogen, natural gas, power grids — our system identifies tenders across all energy sectors."
+        },
+        {
+          "title": "Recognise Auction Formats",
+          "desc": "Energy procurement often uses auctions and framework agreements. TenderWatch identifies the procedure and shows you the terms."
+        },
+        {
+          "title": "Filter by Project Value",
+          "desc": "From small photovoltaic installations to offshore wind farms: filter by project value and find contracts that match your scale."
+        },
+        {
+          "title": "Check Certifications",
+          "desc": "Energy projects require specific certifications and permits. Our system extracts all requirements automatically."
+        },
+        {
+          "title": "Location-Based Projects",
+          "desc": "Energy projects are site-specific. Filter by countries and regions to find projects within your operating radius."
+        },
+        {
+          "title": "Funding Synergies",
+          "desc": "Many energy projects receive public funding. TenderWatch shows which tenders can be combined with subsidy programmes."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Use TenderWatch",
+      "whySubtitle": "Tailored to the needs of the {industry} sector.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your trial access",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never miss a {industry} tender again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "14-day free trial",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
+      "deadlineLabel": "Deadline:",
+      "footerBranches": "Industries",
+      "footerProduct": "Product",
+      "footerLegal": "Legal"
+    },
+    "security": {
+      "heroHeadline": "Security Tenders in the EU – Surveillance & Protection",
+      "heroSubheadline": "Authorities and public institutions invest heavily in security infrastructure. From surveillance systems to personal protection — TenderWatch delivers relevant tenders from CPV 35xxxxxx.",
+      "statsLabel": "Security & Protection · CPV 35xxxxxx",
+      "industryName": "Security",
+      "benefits": [
+        {
+          "title": "All Security Sectors",
+          "desc": "From electronic surveillance to security services and protective equipment — our CPV matching covers the entire security sector."
+        },
+        {
+          "title": "Classification Levels",
+          "desc": "Security contracts often carry special confidentiality requirements. Our system flags these and assists with bid preparation."
+        },
+        {
+          "title": "Check Licences",
+          "desc": "Security procurement requires specific licences (e.g. private security permits). Filter by requirements your company meets."
+        },
+        {
+          "title": "Identify Framework Contracts",
+          "desc": "Security services are frequently awarded through multi-year framework agreements. Spot expiring contracts and plan your bid."
+        },
+        {
+          "title": "Regional Presence",
+          "desc": "Security services require local presence. Filter by countries and regions to see only contracts in your area."
+        },
+        {
+          "title": "Competitor Analysis",
+          "desc": "See how many security firms are bidding on similar contracts and use this intelligence for your strategy."
+        }
+      ],
+      "whyTitle": "Why <hl>{industry}</hl> Use TenderWatch",
+      "whySubtitle": "Tailored to the needs of the {industry} sector.",
+      "recentTitle": "Latest <hl>{industry}</hl> Tenders",
+      "recentSubtitle": "The newest tenders from the EU — updated daily.",
+      "noNotices": "New tenders are being loaded",
+      "noNoticesSub": "Check back soon or start your trial access",
+      "viewAll": "View all {industry} tenders →",
+      "ctaTitle": "Never miss a {industry} tender again",
+      "ctaSubtitle": "Start your 14-day free trial today and discover relevant tenders for your business.",
+      "ctaButton": "Start free",
+      "ctaPricing": "View pricing →",
+      "trialBtn": "14-day free trial",
+      "viewNotices": "View all tenders",
+      "trialNote": "14 days free · No credit card required · Cancel anytime",
       "deadlineLabel": "Deadline:",
       "footerBranches": "Industries",
       "footerProduct": "Product",
@@ -448,16 +601,16 @@
     "emailLabel": "Email address",
     "emailPlaceholder": "you@example.com",
     "sendMagicLink": "Send magic link",
-    "sending": "Sending link\u2026",
+    "sending": "Sending link…",
     "noPassword": "No password needed. We'll email you a secure sign-in link.",
     "checkEmail": "Check your email",
     "magicLinkSent": "We sent a magic link to <strong>{email}</strong>. Click the link to sign in.",
     "useDifferentEmail": "Use a different email",
-    "backToWebsite": "\u2190 Back to website",
+    "backToWebsite": "← Back to website",
     "errorGeneric": "Something went wrong. Please try again."
   },
   "common": {
-    "loading": "Loading\u2026",
+    "loading": "Loading…",
     "error": "Error",
     "save": "Save",
     "cancel": "Cancel",
@@ -488,11 +641,11 @@
     "freq_instant": "Instant",
     "freq_weekly": "Weekly",
     "save": "Save Settings",
-    "saving": "Saving\u2026",
+    "saving": "Saving…",
     "saved": "Settings saved.",
     "saveError": "Error saving settings. Please try again.",
     "sendTest": "Send Test Email",
-    "sending": "Sending\u2026",
+    "sending": "Sending…",
     "testSent": "Test email sent. Check your inbox.",
     "testError": "Error sending test email.",
     "disabled": "Enable alerts to get email notifications when new matching tenders are published."

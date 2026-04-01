@@ -238,7 +238,10 @@
     "bau": "Bau & Construction",
     "it": "IT & Software",
     "facility": "Facility Management",
-    "beratung": "Beratung & Consulting"
+    "beratung": "Beratung & Consulting",
+    "medical": "Medizin & Gesundheit",
+    "energy": "Energie & Versorgung",
+    "security": "Sicherheit & Schutz"
   },
   "branche": {
     "bau": {
@@ -420,6 +423,156 @@
         {
           "title": "Wettbewerbsbeobachtung",
           "desc": "Erfahren Sie, welche Beratungen sich für ähnliche Aufträge bewerben. Nutzen Sie diese Intelligenz für Ihre strategische Positionierung."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "medical": {
+      "heroHeadline": "Medizin-Ausschreibungen in der EU – Healthcare & Gesundheit",
+      "heroSubheadline": "Der öffliche Gesundheitssektor vergibt jährlich Milliarden für Medizintechnik, Arzmittel und Gesundheitsdienstleistungen. TenderWatch liefert täglich passende Ausschreibungen nach CPV 33xxxxxx – automatisch gefiltert.",
+      "statsLabel": "Medizin & Gesundheit · CPV 33xxxxxx",
+      "industryName": "Medizin",
+      "benefits": [
+        {
+          "title": "Medizintechnik-Filter",
+          "desc": "Von Labortechnik über bildgebende Verfahren bis zu OP-Instrumenten – unser CPV-Matching deckt alle Bereiche der Medizintechnik ab."
+        },
+        {
+          "title": "Rahmenverträge tracken",
+          "desc": "Krankenhäuser und Kliniken vergeben oft mehrjährige Rahmenverträge. Erkennen Sie, wann bestehende Verträge auslaufen und planen Sie Ihr Angebot rechtzeitig."
+        },
+        {
+          "title": "Vergabeverfahren verstehen",
+          "desc": "Öffentliche Medizinvergabe folgt strengen Regeln. Unsere KI extrahiert Verfahrensart, Bewertungskriterien und technische Anforderungen für Sie."
+        },
+        {
+          "title": "Dosieranforderungen filtern",
+          "desc": "Viele Medizin-Ausschreibungen erfordern spezifische Zertifizierungen (CE, FDA). Filtern Sie nach Anforderungen, die Ihr Unternehmen erfüllt."
+        },
+        {
+          "title": "Wertgrenzen & Lose",
+          "desc": "Gesundheitsausschreibungen werden oft in Fachlose aufgeteilt. Identifizieren Sie die Teilleistungen, die zu Ihrem Portfolio passen."
+        },
+        {
+          "title": "Lieferzeiten im Blick",
+          "desc": "Medizinprodukte haben oft enge Lieferfristen. TenderWatch zeigt Ihnen alle Deadlines und Erinnerungen auf einen Blick."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "energy": {
+      "heroHeadline": "Energie-Ausschreibungen in der EU – Strom, Gas & Erneuerbare",
+      "heroSubheadline": "Die Energiewende schafft massive Beschaffungsbedarfe. Von Windkraft über Solarenergie bis Netzausbau – TenderWatch liefert täglich passende Ausschreibungen nach CPV 09xxxxxx.",
+      "statsLabel": "Energie & Versorgung · CPV 09xxxxxx",
+      "industryName": "Energie",
+      "benefits": [
+        {
+          "title": "Alle Energieträger abgedeckt",
+          "desc": "Wind, Solar, Biomasse, Wasserstoff, Erdgas, Stromnetze – unser System erkennt Ausschreibungen über alle Energieträger hinweg."
+        },
+        {
+          "title": "Auktionsformate erkennen",
+          "desc": "Energievergabe läuft oft über Auktionen und Rahmenvereinbarungen. TenderWatch identifiziert das Verfahren und zeigt Ihnen die Konditionen."
+        },
+        {
+          "title": "Projektvolumen filtern",
+          "desc": "Von kleinen Photovoltaik-Anlagen bis zu Offshore-Windparks: Filtern Sie nach Projektwert und finden Sie Aufträge passender Größe."
+        },
+        {
+          "title": "Zertifizierungen prüfen",
+          "desc": "Energieprojekte erfordern spezifische Zertifizierungen und Genehmigungen. Unser System extrahiert alle Anforderungen automatisch."
+        },
+        {
+          "title": "Standortnahe Projekte",
+          "desc": "Energieprojekte sind standortgebunden. Filtern Sie nach Ländern und Regionen, um Projekte in Ihrem Aktionsradius zu finden."
+        },
+        {
+          "title": "Fördermittel-Synergie",
+          "desc": "Viele Energieprojekte werden öffentlich gefördert. TenderWatch zeigt Ihnen, welche Ausschreibungen mit Förderprogrammen kombiniert werden können."
+        }
+      ],
+      "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
+      "whySubtitle": "Maßgeschneidert für die Bedürfnisse der {industry}-Branche.",
+      "recentTitle": "Aktuelle <hl>{industry}</hl>-Ausschreibungen",
+      "recentSubtitle": "Die neuesten Ausschreibungen aus der EU – täglich aktualisiert.",
+      "noNotices": "Aktuell werden neue Ausschreibungen geladen",
+      "noNoticesSub": "Schauen Sie bald wieder vorbei oder starten Sie Ihren Testzugang",
+      "viewAll": "Alle {industry}-Ausschreibungen ansehen →",
+      "ctaTitle": "Keine {industry}-Ausschreibung mehr verpassen",
+      "ctaSubtitle": "Starten Sie noch heute Ihren 14-tägigen kostenlosen Testzugang und entdecken Sie relevante Ausschreibungen für Ihr Unternehmen.",
+      "ctaButton": "Kostenlos starten",
+      "ctaPricing": "Preise ansehen →",
+      "trialBtn": "14 Tage kostenlos testen",
+      "viewNotices": "Alle Ausschreibungen ansehen",
+      "trialNote": "14 Tage kostenlos · Keine Kreditkarte erforderlich · Jederzeit kündbar",
+      "deadlineLabel": "Frist:",
+      "footerBranches": "Branchen",
+      "footerProduct": "Produkt",
+      "footerLegal": "Rechtliches"
+    },
+    "security": {
+      "heroHeadline": "Sicherheits-Ausschreibungen in der EU – Überwachung & Schutz",
+      "heroSubheadline": "Behörden und öffentliche Einrichtungen schaffen umfangreiche Sicherheitsinfrastruktur. Von Überwachungssystemen bis Personenschutz – TenderWatch liefert passende Ausschreibungen nach CPV 35xxxxxx.",
+      "statsLabel": "Sicherheit & Schutz · CPV 35xxxxxx",
+      "industryName": "Sicherheit",
+      "benefits": [
+        {
+          "title": "Alle Sicherheitssparten",
+          "desc": "Von elektronischer Überwachung über Sicherheitsdienste bis zu Schutzausrüstung – unser CPV-Matching deckt den gesamten Sicherheitssektor ab."
+        },
+        {
+          "title": "Geheimhaltungsstufen",
+          "desc": "Sicherheitsaufträge haben oft besondere Vertraulichkeitsanforderungen. Unser System kennzeichnet diese und hilft bei der Angebotsvorbereitung."
+        },
+        {
+          "title": "Zulassungen prüfen",
+          "desc": "Sicherheitsvergabe erfordert spezifische Zulassungen (z.B. Bewachungserlaubnis). Filtern Sie nach Anforderungen, die Ihr Unternehmen erfüllt."
+        },
+        {
+          "title": "Rahmenverträge identifizieren",
+          "desc": "Sicherheitsdienstleistungen werden häufig über mehrjährige Rahmenverträge vergeben. Erkennen Sie auslaufende Verträge und planen Sie Ihr Angebot."
+        },
+        {
+          "title": "Regionale Präsenz",
+          "desc": "Sicherheitsdienste erfordern lokale Präsenz. Filtern Sie nach Ländern und Regionen, um nur Aufträge in Ihrem Einzugsgebiet zu sehen."
+        },
+        {
+          "title": "Wettbewerbsanalyse",
+          "desc": "Erfahren Sie, wie viele Sicherheitsunternehmen sich für ähnliche Aufträge bewerben und nutzen Sie diese Intelligenz für Ihre Strategie."
         }
       ],
       "whyTitle": "Warum <hl>{industry}</hl> TenderWatch nutzen",
