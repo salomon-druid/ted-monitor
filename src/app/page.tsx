@@ -350,7 +350,7 @@ export default function HomePage() {
                 <span className="text-gray-500 text-sm">/mo</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
-                {(Array.isArray(t('pricing.starterFeatures')) ? JSON.parse(t('pricing.starterFeatures')) : t('pricing.starterFeatures').split(', ')).map((item: string) => (
+                {(Array.isArray(t('pricing.starterFeatures')) ? t('pricing.starterFeatures') : t('pricing.starterFeatures').split(', ')).map((item: string) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-gray-600">
                     <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -380,7 +380,7 @@ export default function HomePage() {
                 <span className="text-gray-500 text-sm">/mo</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
-                {(Array.isArray(t('pricing.professionalFeatures')) ? JSON.parse(t('pricing.professionalFeatures')) : t('pricing.professionalFeatures').split(', ')).map((item: string) => (
+                {(Array.isArray(t('pricing.professionalFeatures')) ? t('pricing.professionalFeatures') : t('pricing.professionalFeatures').split(', ')).map((item: string) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-gray-600">
                     <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -405,7 +405,7 @@ export default function HomePage() {
                 <span className="text-gray-500 text-sm">/mo</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
-                {(Array.isArray(t('pricing.enterpriseFeatures')) ? JSON.parse(t('pricing.enterpriseFeatures')) : t('pricing.enterpriseFeatures').split(', ')).map((item: string) => (
+                {(Array.isArray(t('pricing.enterpriseFeatures')) ? t('pricing.enterpriseFeatures') : t('pricing.enterpriseFeatures').split(', ')).map((item: string) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-gray-600">
                     <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />

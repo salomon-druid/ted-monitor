@@ -12,29 +12,44 @@ export async function GET(request: NextRequest) {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     );
 
-    const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+    try {
+      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
 
-    if (!error && data.session) {
-      const response = NextResponse.redirect(`${origin}${next}`);
-      
-      // Set auth cookies
-      response.cookies.set('sb-access-token', data.session.access_token, {
-        path: '/',
-        httpOnly: true,
-        sameSite: 'lax',
-        secure: true,
-        maxAge: 60 * 60 * 24 * 7, // 7 days
-      });
-      
-      response.cookies.set('sb-refresh-token', data.session.refresh_token, {
-        path: '/',
-        httpOnly: true,
-        sameSite: 'lax',
-        secure: true,
-        maxAge: 60 * 60 * 24 * 30, // 30 days
-      });
+      if (!error && data.session) {
+        const response = NextResponse.redirect(`${origin}${next}`);
+        
+        // Set cookies that Supabase expects
+        const accessToken = data.session.access_token;
+        const refreshToken = data.session.refresh_token;
+        
+        response.cookies.set('sb-access-token', accessToken, {
+          path: '/',
+          httpOnly: false, // Allow JS access for Supabase client
+          sameSite: 'lax',
+          secure: true,
+          maxAge: 60 * 60 * 24 * 7,
+        });
+        
+        response.cookies.set('sb-refresh-token', refreshToken, {
+          path: '/',
+          httpOnly: true,
+          sameSite: 'lax',
+          secure: true,
+          maxAge: 60 * 60 * 24 * 30,
+        });
 
-      return response;
+        // Also set in localStorage-compatible format
+        response.cookies.set('authenticated', 'true', {
+          path: '/',
+          sameSite: 'lax',
+          secure: true,
+          maxAge: 60 * 60 * 24 * 7,
+        });
+
+        return response;
+      }
+    } catch (e) {
+      console.error('Auth error:', e);
     }
   }
 
