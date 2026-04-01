@@ -1,28 +1,18 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { createServerClient } from '@supabase/ssr';
+import { NextResponse } from 'next/server';
+import { createClient } from '@supabase/supabase-js';
 
-export async function POST(request: NextRequest) {
-  const response = NextResponse.json({ success: true });
-
-  const supabase = createServerClient(
+export async function POST() {
+  const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        get(name: string) {
-          return request.cookies.get(name)?.value;
-        },
-        set(name: string, value: string, options: any) {
-          response.cookies.set({ name, value, ...options });
-        },
-        remove(name: string, options: any) {
-          response.cookies.set({ name, value: '', ...options });
-        },
-      },
-    }
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
   );
 
   await supabase.auth.signOut();
+
+  const response = NextResponse.json({ success: true });
+  response.cookies.set('sb-access-token', '', { maxAge: 0, path: '/' });
+  response.cookies.set('sb-refresh-token', '', { maxAge: 0, path: '/' });
+  response.cookies.set('authenticated', '', { maxAge: 0, path: '/' });
 
   return response;
 }
